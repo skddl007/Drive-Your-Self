@@ -1,0 +1,3131 @@
+[
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "User Input / Output",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/search-query-auto-complete/0?category%5B%5D=Strings&category%5B%5D=Strings&problemStatus=unsolved&difficulty%5B%5D=2&page=1&query=category%5B%5DStringsproblemStatusunsolveddifficulty%5B%5D2page1category%5B%5DStr",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Data Types",
+    "Practice Link": "https://bit.ly/3Dqmgvx",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "If Else statements",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/java-if-else-decision-making0924/0?category%5B%5D=Java&category%5B%5D=Java&difficulty%5B%5D=-2&page=1&query=category%5B%5DJavadifficulty%5B%5D-2page1category%5B%5DJava",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Switch Statement",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/java-switch-case-statement3529/1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "What are arrays, strings?",
+    "Practice Link": "https://takeuforward.org/arrays/what-is-an-array/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "For loops",
+    "Practice Link": "https://www.codingninjas.com/studio/problems/nth-fibonacci-number_74156?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "While loops",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/while-loop-printtable-java/1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Functions (Pass by Reference and Value)",
+    "Practice Link": "https://bit.ly/3DqE0ac",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Time Complexity [Learn Basics, and then analyse in next Steps]",
+    "Practice Link": "https://takeuforward.org/time-complexity/time-and-space-complexity-strivers-a2z-dsa-course/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Patterns",
+    "Practice Link": "https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Java Collections",
+    "Practice Link": "https://takeuforward.org/java/java-tutorials-learn-java-for-free-best-resource",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Count Digits",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/count-digits5716/1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Reverse a Number",
+    "Practice Link": "https://leetcode.com/problems/reverse-integer/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Check Palindrome",
+    "Practice Link": "https://leetcode.com/problems/palindrome-number/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "GCD Or HCF",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/lcm-and-gcd4516/1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Armstrong Numbers",
+    "Practice Link": "https://leetcode.com/problems/armstrong-number/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Print all Divisors",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/sum-of-all-divisors-from-1-to-n4738/1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Check for Prime",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Understand recursion by print something N times",
+    "Practice Link": "https://bit.ly/3K2epHv",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Print name N times using recursion",
+    "Practice Link": "https://bit.ly/3y2BiWz",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Print 1 to N using recursion",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/print-1-to-n-without-using-loops-1587115620/1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Print N to 1 using recursion",
+    "Practice Link": "https://bit.ly/3LOkcBn",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Sum of first N numbers",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/sum-of-first-n-terms5843/1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Factorial of N numbers",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/find-all-factorial-numbers-less-than-or-equal-to-n3548/0?problemType=functional&difficulty%5B%5D=-1&page=1&query=problemTypefunctionaldifficulty%5B%5D-1page1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Reverse an array",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/reverse-an-array/0",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Fibonacci Number",
+    "Practice Link": "https://leetcode.com/problems/fibonacci-number/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Counting frequencies of array elements",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/0",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Find the highest/lowest frequency element",
+    "Practice Link": "https://leetcode.com/problems/frequency-of-the-most-frequent-element/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Check if a string is palindrome or not",
+    "Practice Link": "https://leetcode.com/problems/valid-palindrome/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 1 : Learn the basics",
+    "Problem": "Hashing Theory",
+    "Practice Link": "https://takeuforward.org/hashing/hashing-maps-time-complexity-collisions-division-rule-of-hashing-strivers-a2z-dsa-course/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Largest Element in an Array",
+    "Practice Link": "https://bit.ly/3Pld280",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Second Largest Element in an Array without sorting",
+    "Practice Link": "https://bit.ly/3pFvBcN",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Check if the array is sorted",
+    "Practice Link": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/#:~:text=Input%3A%20nums%20%3D%20%5B2%2C,no%20rotation)%20to%20make%20nums.",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Remove duplicates from Sorted array",
+    "Practice Link": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/#:~:text=Input%3A%20nums%20%3D%20%5B0%2C,%2C%203%2C%20and%204%20respectively.",
+    "Difficulty": "Easy",
+    "Company Name": "Google, Amazon, Microsoft, Meta"
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Left Rotate an array by one place",
+    "Practice Link": "https://leetcode.com/problems/rotate-array/",
+    "Difficulty": "Easy",
+    "Company Name": "Amazon, Microsoft"
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Left rotate an array by D places",
+    "Practice Link": "https://leetcode.com/problems/rotate-array/",
+    "Difficulty": "Easy",
+    "Company Name": "Google, Amazon, Microsoft"
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Move Zeros to end",
+    "Practice Link": "https://leetcode.com/problems/move-zeroes/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Linear Search",
+    "Practice Link": "https://bit.ly/3KcpHcB",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Find missing number in an array",
+    "Practice Link": "https://leetcode.com/problems/missing-number/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Maximum Consecutive Ones",
+    "Practice Link": "https://leetcode.com/problems/max-consecutive-ones/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Majority Element (>n/2 times)",
+    "Practice Link": "https://leetcode.com/problems/majority-element/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Kadane's Algorithm, maximum subarray sum",
+    "Practice Link": "https://leetcode.com/problems/maximum-subarray/",
+    "Difficulty": "Easy",
+    "Company Name": "Google, Amazon, Microsoft, Adobe"
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Stock Buy and Sell",
+    "Practice Link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Leaders in an Array problem",
+    "Practice Link": "https://bit.ly/3bZqbGc",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Count subarrays with given sum",
+    "Practice Link": "https://leetcode.com/problems/subarray-sum-equals-k/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Maximum Product Subarray",
+    "Practice Link": "https://leetcode.com/problems/maximum-product-subarray/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Z-Function",
+    "Practice Link": "https://leetcode.com/problems/implement-strstr/",
+    "Difficulty": "Easy",
+    "Company Name": "Apple"
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Remove outermost Paranthesis",
+    "Practice Link": "https://leetcode.com/problems/remove-outermost-parentheses/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Reverse words in a given string / Palindrome Check",
+    "Practice Link": "https://leetcode.com/problems/reverse-words-in-a-string/",
+    "Difficulty": "Easy",
+    "Company Name": "Google, Amazon, Microsoft, Adobe"
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Largest odd number in a string",
+    "Practice Link": "https://leetcode.com/problems/largest-odd-number-in-string/",
+    "Difficulty": "Easy",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Longest Common Prefix",
+    "Practice Link": "https://leetcode.com/problems/longest-common-prefix/",
+    "Difficulty": "Easy",
+    "Company Name": "Google, Amazon, Microsoft, Meta, Apple, Adobe"
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Isomorphic String",
+    "Practice Link": "https://leetcode.com/problems/isomorphic-strings/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Sort Characters by frequency",
+    "Practice Link": "https://leetcode.com/problems/sort-characters-by-frequency/",
+    "Difficulty": "Easy",
+    "Company Name": "Google, Amazon, Microsoft, Apple"
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Maximum Nesting Depth of Paranthesis",
+    "Practice Link": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Roman Number to Integer and vice versa",
+    "Practice Link": "https://leetcode.com/problems/roman-to-integer/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Reverse Every Word in A String",
+    "Practice Link": "https://leetcode.com/problems/reverse-words-in-a-string/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Sliding Window & Two Pointer",
+    "Problem": "Binary subarray with sum",
+    "Practice Link": "https://leetcode.com/problems/binary-subarrays-with-sum/",
+    "Difficulty": "Easy",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Find the Union",
+    "Practice Link": "https://bit.ly/3Ap7Onp",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Find the number that appears once, and other numbers twice.",
+    "Practice Link": "https://leetcode.com/problems/single-number/",
+    "Difficulty": "Medium",
+    "Company Name": "Google, Amazon, Microsoft"
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Longest subarray with given sum K(positives)",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-sub-array-with-sum-k",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Longest subarray with sum K (Positives + Negatives)",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=longest-sub-array-with-sum-k",
+    "Difficulty": "Medium",
+    "Company Name": "Google, Amazon, Microsoft"
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "2Sum Problem",
+    "Practice Link": "https://leetcode.com/problems/two-sum/",
+    "Difficulty": "Medium",
+    "Company Name": "Google, Amazon, Microsoft, Meta, Apple, Adobe"
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Sort an array of 0's 1's and 2's",
+    "Practice Link": "https://leetcode.com/problems/sort-colors/",
+    "Difficulty": "Medium",
+    "Company Name": "Google, Amazon, Microsoft"
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Print subarray with maximum subarray sum (extended version of above problem)",
+    "Practice Link": "https://bit.ly/3SLFFhs",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Rearrange the array in alternating positive and negative items",
+    "Practice Link": "https://leetcode.com/problems/rearrange-array-elements-by-sign/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Next Permutation",
+    "Practice Link": "https://leetcode.com/problems/next-permutation/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Longest Consecutive Sequence in an Array",
+    "Practice Link": "https://leetcode.com/problems/longest-consecutive-sequence/solution/",
+    "Difficulty": "Medium",
+    "Company Name": "Google, Amazon, Microsoft"
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Set Matrix Zeros",
+    "Practice Link": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "Difficulty": "Medium",
+    "Company Name": "Google, Amazon, Microsoft, Meta, Apple"
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Rotate Matrix by 90 degrees",
+    "Practice Link": "https://leetcode.com/problems/rotate-image/",
+    "Difficulty": "Medium",
+    "Company Name": "Google, Amazon, Microsoft, Meta, Apple"
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Print the matrix in spiral manner",
+    "Practice Link": "https://leetcode.com/problems/spiral-matrix/",
+    "Difficulty": "Medium",
+    "Company Name": "Google, Amazon, Microsoft, Meta"
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Pascal's Triangle",
+    "Practice Link": "https://leetcode.com/problems/pascals-triangle/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Majority Element (n/3 times)",
+    "Practice Link": "https://leetcode.com/problems/majority-element-ii/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "3-Sum Problem",
+    "Practice Link": "https://leetcode.com/problems/3sum/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Largest Subarray with 0 Sum",
+    "Practice Link": "https://bit.ly/3w5QSzC",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Merge Overlapping Subintervals",
+    "Practice Link": "https://leetcode.com/problems/merge-intervals/",
+    "Difficulty": "Medium",
+    "Company Name": "Google, Amazon, Microsoft, Meta, Apple"
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Merge two sorted arrays without extra space",
+    "Practice Link": "https://leetcode.com/problems/merge-sorted-array/",
+    "Difficulty": "Medium",
+    "Company Name": "Google, Amazon, Microsoft, Adobe"
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Minimum number of bracket reversals needed to make an expression balanced",
+    "Practice Link": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/",
+    "Difficulty": "Medium",
+    "Company Name": "Facebook, ServiceNow"
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Count and say",
+    "Practice Link": "https://leetcode.com/problems/count-and-say/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Hashing In Strings | Theory",
+    "Practice Link": "https://bit.ly/3glak75",
+    "Difficulty": "Medium",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Strings",
+    "Problem": "check whether one string is a rotation of another",
+    "Practice Link": "https://leetcode.com/problems/rotate-string/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Check if two strings are anagram of each other",
+    "Practice Link": "https://leetcode.com/problems/valid-anagram/#:~:text=Given%20two%20strings%20s%20and,the%20original%20letters%20exactly%20once.&text=Constraints%3A,.length%20%3C%3D%205%20*%2010",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Implement Atoi",
+    "Practice Link": "https://leetcode.com/problems/string-to-integer-atoi/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Count Number of Substrings",
+    "Practice Link": "https://bit.ly/3CfQfYi",
+    "Difficulty": "Medium",
+    "Company Name": "Google, Amazon, Microsoft, Apple, Adobe"
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Sum of Beauty of all substring",
+    "Practice Link": "https://leetcode.com/problems/sum-of-beauty-of-all-substrings/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Sliding Window & Two Pointer",
+    "Problem": "Longest Substring Without Repeating Characters",
+    "Practice Link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Sliding Window & Two Pointer",
+    "Problem": "Max Consecutive Ones III",
+    "Practice Link": "https://leetcode.com/problems/max-consecutive-ones-iii/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Sliding Window & Two Pointer",
+    "Problem": "Fruit Into Baskets",
+    "Practice Link": "https://bit.ly/3D6d94w",
+    "Difficulty": "Medium",
+    "Company Name": "Facebook"
+  },
+  {
+    "Title": "Sliding Window & Two Pointer",
+    "Problem": "longest repeating character replacement",
+    "Practice Link": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+    "Difficulty": "Medium",
+    "Company Name": "Facebook"
+  },
+  {
+    "Title": "Sliding Window & Two Pointer",
+    "Problem": "Count number of nice subarrays",
+    "Practice Link": "https://leetcode.com/problems/count-number-of-nice-subarrays/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Sliding Window & Two Pointer",
+    "Problem": "Number of substring containing all three characters",
+    "Practice Link": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/",
+    "Difficulty": "Medium",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Sliding Window & Two Pointer",
+    "Problem": "Maximum point you can obtain from cards",
+    "Practice Link": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Sliding Window & Two Pointer",
+    "Problem": "Longest Substring with At Most K Distinct Characters",
+    "Practice Link": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+    "Difficulty": "Medium",
+    "Company Name": "Facebook"
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "4-Sum Problem",
+    "Practice Link": "https://leetcode.com/problems/4sum/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Count number of subarrays with given xor K",
+    "Practice Link": "https://www.interviewbit.com/problems/subarray-with-given-xor/",
+    "Difficulty": "Hard",
+    "Company Name": "Google, Amazon, Microsoft"
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Find the repeating and missing number",
+    "Practice Link": "https://bit.ly/3zWZoCs",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Count Inversions",
+    "Practice Link": "https://bit.ly/3PtLWLM",
+    "Difficulty": "Hard",
+    "Company Name": "Google, Amazon, Microsoft"
+  },
+  {
+    "Title": "Arrays",
+    "Problem": "Reverse Pairs",
+    "Practice Link": "https://leetcode.com/problems/reverse-pairs/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Rabin Karp",
+    "Practice Link": "https://leetcode.com/problems/repeated-string-match/discuss/416144/Rabin-Karp-algorithm-C%2B%2B-implementation",
+    "Difficulty": "Hard",
+    "Company Name": "Microsoft"
+  },
+  {
+    "Title": "Strings",
+    "Problem": "KMP algo / LPS(pi) array",
+    "Practice Link": "https://leetcode.com/problems/implement-strstr/",
+    "Difficulty": "Hard",
+    "Company Name": "Adobe"
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Shortest Palindrome",
+    "Practice Link": "https://leetcode.com/problems/shortest-palindrome/",
+    "Difficulty": "Hard",
+    "Company Name": "Facebook"
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Longest happy prefix",
+    "Practice Link": "https://leetcode.com/problems/longest-happy-prefix/",
+    "Difficulty": "Hard",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Count palindromic subsequence in given string",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1#:~:text=Given%20a%20string%20str%20of,formed%20from%20the%20string%20str.&text=Your%20Task%3A,read%20input%20or%20print%20anything.",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Strings",
+    "Problem": "Longest Palindromic Substring[Do it without DP]",
+    "Practice Link": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "Difficulty": "Hard",
+    "Company Name": "Google, Amazon, Microsoft, Adobe"
+  },
+  {
+    "Title": "Sliding Window & Two Pointer",
+    "Problem": "Subarray with k different integers",
+    "Practice Link": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+    "Difficulty": "Hard",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Sliding Window & Two Pointer",
+    "Problem": "Minimum Window Substring",
+    "Practice Link": "https://leetcode.com/problems/minimum-window-substring/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Sliding Window & Two Pointer",
+    "Problem": "Minimum Window Subsequence",
+    "Practice Link": "https://leetcode.com/problems/minimum-window-subsequence/",
+    "Difficulty": "Hard",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Introduction to LinkedList, learn about struct, and how is node represented",
+    "Practice Link": "https://bit.ly/3URZnst",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Inserting a node in LinkedList",
+    "Practice Link": "https://bit.ly/3w9pEIt",
+    "Difficulty": "Easy",
+    "Company Name": "Google, Amazon, Microsoft, Meta"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Find the length of the linkedlist [learn traversal]",
+    "Practice Link": "https://bit.ly/3Po7tpf",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Search an element in the LL",
+    "Practice Link": "https://bit.ly/3Epriup",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Introduction to DLL, learn about struct, and how is node represented",
+    "Practice Link": "https://bit.ly/3V9wY1v",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Insert a node in DLL",
+    "Practice Link": "https://bit.ly/3QD4hHs",
+    "Difficulty": "Easy",
+    "Company Name": "Microsoft"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Middle of a LinkedList [TortoiseHare Method]",
+    "Practice Link": "https://leetcode.com/problems/middle-of-the-linked-list/",
+    "Difficulty": "Easy",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Reverse a LinkedList [Iterative]",
+    "Practice Link": "https://leetcode.com/problems/reverse-linked-list/",
+    "Difficulty": "Easy",
+    "Company Name": "Microsoft"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Reverse a LL [Recursive]",
+    "Practice Link": "https://leetcode.com/problems/reverse-linked-list/",
+    "Difficulty": "Easy",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Length of Loop in LL",
+    "Practice Link": "https://bit.ly/3dyXL6m",
+    "Difficulty": "Easy",
+    "Company Name": "Adobe"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Deleting a node in LinkedList",
+    "Practice Link": "https://leetcode.com/problems/delete-node-in-a-linked-list/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Delete a node in DLL",
+    "Practice Link": "https://bit.ly/3QlEoMx",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Microsoft"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Reverse a DLL",
+    "Practice Link": "https://bit.ly/3w6hUaa",
+    "Difficulty": "Medium",
+    "Company Name": "Google, Amazon, Microsoft"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Detect a loop in LL",
+    "Practice Link": "https://leetcode.com/problems/linked-list-cycle/",
+    "Difficulty": "Medium",
+    "Company Name": "Facebook"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Find the starting point in LL",
+    "Practice Link": "https://leetcode.com/problems/linked-list-cycle-ii/",
+    "Difficulty": "Medium",
+    "Company Name": "LinkedIn"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Check if LL is palindrome or not",
+    "Practice Link": "https://leetcode.com/problems/palindrome-linked-list/",
+    "Difficulty": "Medium",
+    "Company Name": "Goldman Sachs"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Segrregate odd and even nodes in LL",
+    "Practice Link": "https://leetcode.com/problems/odd-even-linked-list/",
+    "Difficulty": "Medium",
+    "Company Name": "Uber"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Remove Nth node from the back of the LL",
+    "Practice Link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+    "Difficulty": "Medium",
+    "Company Name": "Netflix"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Delete the middle node of LL",
+    "Practice Link": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/#:~:text=You%20are%20given%20the%20head,than%20or%20equal%20to%20x%20.",
+    "Difficulty": "Medium",
+    "Company Name": "Twitter"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Sort LL",
+    "Practice Link": "https://leetcode.com/problems/sort-list/",
+    "Difficulty": "Medium",
+    "Company Name": "Dropbox"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Sort a LL of 0's 1's and 2's by changing links",
+    "Practice Link": "https://bit.ly/3Ceotvr",
+    "Difficulty": "Medium",
+    "Company Name": "PayPal"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Find the intersection point of Y LL",
+    "Practice Link": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+    "Difficulty": "Medium",
+    "Company Name": "Goldman Sachs"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Add 1 to a number represented by LL",
+    "Practice Link": "https://bit.ly/3piCTD3",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Add 2 numbers in LL",
+    "Practice Link": "https://leetcode.com/problems/add-two-numbers/",
+    "Difficulty": "Medium",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Delete all occurrences of a key in DLL",
+    "Practice Link": "https://bit.ly/3zuBr66",
+    "Difficulty": "Medium",
+    "Company Name": "Microsoft"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Find pairs with given sum in DLL",
+    "Practice Link": "https://bit.ly/3zWPiBj",
+    "Difficulty": "Medium",
+    "Company Name": "Facebook"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Remove duplicates from sorted DLL",
+    "Practice Link": "https://bit.ly/3FtJUtZ",
+    "Difficulty": "Medium",
+    "Company Name": "LinkedIn"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Rotate a LL",
+    "Practice Link": "https://leetcode.com/problems/rotate-list/description/",
+    "Difficulty": "Medium",
+    "Company Name": "Netflix"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Reverse LL in group of given size K",
+    "Practice Link": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+    "Difficulty": "Hard",
+    "Company Name": "Uber"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Flattening of LL",
+    "Practice Link": "https://bit.ly/3w9TKf8",
+    "Difficulty": "Hard",
+    "Company Name": "Twitter"
+  },
+  {
+    "Title": "Step 6 : Learn LinkedList [Single LL, Double LL, Medium, Hard Problems]",
+    "Problem": "Clone a Linked List with random and next pointer",
+    "Practice Link": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "Difficulty": "Hard",
+    "Company Name": "Dropbox"
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Count Good numbers",
+    "Practice Link": "https://leetcode.com/problems/count-good-numbers/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Reverse a stack using recursion",
+    "Practice Link": "https://bit.ly/3podAiY",
+    "Difficulty": "Easy",
+    "Company Name": "Google, Amazon, Microsoft, Meta"
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Pow(x, n)",
+    "Practice Link": "https://leetcode.com/problems/powx-n/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Sort a stack using recursion",
+    "Practice Link": "https://bit.ly/3Pu0YBn",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Generate all binary strings",
+    "Practice Link": "https://bit.ly/3QJ0vwc",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Generate Paranthesis",
+    "Practice Link": "https://leetcode.com/problems/generate-parentheses/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Print all subsequences/Power Set",
+    "Practice Link": "https://leetcode.com/problems/subsets/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Learn All Patterns of Subsequences (Theory)",
+    "Practice Link": "https://bit.ly/3US225G",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Check if there exists a subsequence with sum K",
+    "Practice Link": "https://www.codingninjas.com/studio/problems/subset-sum_630213?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Combination Sum",
+    "Practice Link": "https://leetcode.com/problems/combination-sum/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Combination Sum-II",
+    "Practice Link": "https://leetcode.com/problems/combination-sum-ii/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Subset Sum-I",
+    "Practice Link": "https://bit.ly/3C9GQRS",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Subset Sum-II",
+    "Practice Link": "https://leetcode.com/problems/subsets-ii/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Letter Combinations of a Phone number",
+    "Practice Link": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Palindrome Partitioning",
+    "Practice Link": "https://leetcode.com/problems/palindrome-partitioning/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Word Search",
+    "Practice Link": "https://leetcode.com/problems/word-search/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Recursive Implementation of atoi()",
+    "Practice Link": "https://leetcode.com/problems/string-to-integer-atoi/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Count all subsequences with sum K",
+    "Practice Link": "https://bit.ly/3SVf1me",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Combination Sum - III",
+    "Practice Link": "https://leetcode.com/problems/combination-sum-iii/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "N Queen",
+    "Practice Link": "https://leetcode.com/problems/n-queens/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Rat in a Maze",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "M Coloring Problem",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1#",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Sudoko Solver",
+    "Practice Link": "https://leetcode.com/problems/sudoku-solver/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Expression Add Operators",
+    "Practice Link": "https://leetcode.com/problems/expression-add-operators/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Recursion",
+    "Problem": "Word Break",
+    "Practice Link": "https://leetcode.com/problems/word-break/",
+    "Difficulty": "",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "Introduction to Bit Manipulation [Theory]",
+    "Practice Link": "https://bit.ly/3Eo8JVW",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "Check if the i-th bit is set or not",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not-1587115620/1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "Check if a number is odd or not",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/odd-or-even3618/1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "Check if a number is power of 2 or not",
+    "Practice Link": "https://leetcode.com/problems/power-of-two/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "Count the number of set bits",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/count-total-set-bits-1587115620/1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "Set/Unset the rightmost unset bit",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/set-the-rightmost-unset-bit4436/1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "Swap two numbers",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/swap-two-numbers3844/1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "Find the number that appears odd number of times",
+    "Practice Link": "https://leetcode.com/problems/single-number/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "Find xor of numbers from L to R",
+    "Practice Link": "https://bit.ly/3T8xUCf",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "Find the two numbers appearing odd number of times",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/two-numbers-with-odd-occurrences5846/1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "Print Prime Factors of a Number",
+    "Practice Link": "https://bit.ly/3C165p8",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "All Divisors of a Number",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/all-divisors-of-a-number/1?utm_source=youtube&amp;utm_medium=collab_striver_ytdescription&amp;utm_campaign=all-divisors-of-a-number",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "Divide two integers without using multiplication, division and mod operator",
+    "Practice Link": "https://leetcode.com/problems/divide-two-integers/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "Count number of bits to be flipped to convert A to B",
+    "Practice Link": "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "Power Set",
+    "Practice Link": "https://leetcode.com/problems/subsets/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "Sieve of Eratosthenes",
+    "Practice Link": "https://leetcode.com/problems/count-primes/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "Find Prime Factorisation of a Number using Sieve",
+    "Practice Link": "https://bit.ly/3SPGzbK",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Bit Manipulation",
+    "Problem": "Power(n, x)",
+    "Practice Link": "https://leetcode.com/problems/powx-n/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Implement Stack using Arrays",
+    "Practice Link": "https://bit.ly/3QPJ39w",
+    "Difficulty": "Easy",
+    "Company Name": "HCLTech, Cvent"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Implement Queue using Arrays",
+    "Practice Link": "https://bit.ly/3C9HLli",
+    "Difficulty": "Easy",
+    "Company Name": "Amazon, Google, Microsoft"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Implement stack using Linkedlist",
+    "Practice Link": "https://bit.ly/3w6PwVv",
+    "Difficulty": "Easy",
+    "Company Name": "Amazon, Google, Microsoft"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Next Greater Element",
+    "Practice Link": "https://leetcode.com/problems/next-greater-element-i/",
+    "Difficulty": "Easy",
+    "Company Name": "Amazon, Google"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Next Smaller Element",
+    "Practice Link": "https://www.interviewbit.com/problems/nearest-smaller-element/",
+    "Difficulty": "Easy",
+    "Company Name": "Amazon, Google"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Number of NGEs to the right",
+    "Practice Link": "https://bit.ly/3Np2R2H",
+    "Difficulty": "Easy",
+    "Company Name": "Amazon, Google"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Implement Stack using Queue",
+    "Practice Link": "https://leetcode.com/problems/implement-stack-using-queues/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google, Microsoft"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Implement Queue using Stack",
+    "Practice Link": "https://leetcode.com/problems/implement-queue-using-stacks/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google, Microsoft"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Implement queue using Linkedlist",
+    "Practice Link": "https://bit.ly/3PA7mY0",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google, Microsoft"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Check for balanced paranthesis",
+    "Practice Link": "https://leetcode.com/problems/valid-parentheses/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Facebook, Google"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Implement Min Stack",
+    "Practice Link": "https://leetcode.com/problems/min-stack/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google, Microsoft"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Infix to Postfix Conversion using Stack",
+    "Practice Link": "https://bit.ly/3JWYj1P",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google, Microsoft"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Prefix to Infix Conversion",
+    "Practice Link": "https://bit.ly/3FwxK3j",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google, Microsoft"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Prefix to Postfix Conversion",
+    "Practice Link": "https://bit.ly/3DrwCLI",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google, Microsoft"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Postfix to Prefix Conversion",
+    "Practice Link": "https://bit.ly/3UaWJxk",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google, Microsoft"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Postfix to Infix",
+    "Practice Link": "https://bit.ly/3sNZ1a2",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google, Microsoft"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Convert Infix To Prefix Notation",
+    "Practice Link": "https://bit.ly/3T0gZ4P",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google, Microsoft"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Next Greater Element 2",
+    "Practice Link": "https://leetcode.com/problems/next-greater-element-ii/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Sum of subarray minimum",
+    "Practice Link": "https://leetcode.com/problems/sum-of-subarray-minimums/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Asteroid Collision",
+    "Practice Link": "https://leetcode.com/problems/asteroid-collision/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Sum of subarray ranges",
+    "Practice Link": "https://leetcode.com/problems/sum-of-subarray-ranges/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Remove k Digits",
+    "Practice Link": "https://leetcode.com/problems/remove-k-digits/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Largest rectangle in a histogram",
+    "Practice Link": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Stock span problem",
+    "Practice Link": "https://leetcode.com/problems/online-stock-span/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Trapping Rainwater",
+    "Practice Link": "https://leetcode.com/problems/trapping-rain-water/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Maximal Rectangles",
+    "Practice Link": "https://leetcode.com/problems/maximal-rectangle/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "Sliding Window maximum",
+    "Practice Link": "https://leetcode.com/problems/sliding-window-maximum/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "The Celebrity Problem",
+    "Practice Link": "https://leetcode.com/accounts/login/?next=/problems/find-the-celebrity/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "LRU cache (IMPORTANT)",
+    "Practice Link": "https://leetcode.com/problems/lru-cache/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Stack and Queues",
+    "Problem": "LFU cache",
+    "Practice Link": "https://leetcode.com/problems/lfu-cache/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google"
+  },
+  {
+    "Title": "Greedy Algorithms",
+    "Problem": "Assign Cookies",
+    "Practice Link": "https://leetcode.com/problems/assign-cookies/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Greedy Algorithms",
+    "Problem": "Lemonade Change",
+    "Practice Link": "https://leetcode.com/problems/lemonade-change/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Greedy Algorithms",
+    "Problem": "Fractional Knapsack Problem",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Greedy Algorithms",
+    "Problem": "Greedy algorithm to find minimum number of coins",
+    "Practice Link": "https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Greedy Algorithms",
+    "Problem": "Valid Paranthesis Checker",
+    "Practice Link": "https://leetcode.com/problems/valid-parenthesis-string/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Greedy Algorithms",
+    "Problem": "N meetings in one room",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Greedy Algorithms",
+    "Problem": "Jump Game",
+    "Practice Link": "https://leetcode.com/problems/jump-game/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Greedy Algorithms",
+    "Problem": "Jump Game 2",
+    "Practice Link": "https://leetcode.com/problems/jump-game-ii/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Greedy Algorithms",
+    "Problem": "Minimum number of platforms required for a railway",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1#",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Greedy Algorithms",
+    "Problem": "Job sequencing Problem",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1#",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Greedy Algorithms",
+    "Problem": "Program for Shortest Job First (or SJF) CPU Scheduling",
+    "Practice Link": "https://bit.ly/3DYCIFb",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Greedy Algorithms",
+    "Problem": "Program for Least Recently Used (LRU) Page Replacement Algorithm",
+    "Practice Link": "https://bit.ly/3dtFqHG",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Greedy Algorithms",
+    "Problem": "Insert Interval",
+    "Practice Link": "https://leetcode.com/problems/insert-interval/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Greedy Algorithms",
+    "Problem": "Merge Intervals",
+    "Practice Link": "https://leetcode.com/problems/merge-intervals/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Greedy Algorithms",
+    "Problem": "Non-overlapping Intervals",
+    "Practice Link": "https://leetcode.com/problems/non-overlapping-intervals/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Greedy Algorithms",
+    "Problem": "Candy",
+    "Practice Link": "https://leetcode.com/problems/candy/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Introduction to Trees",
+    "Practice Link": "https://bit.ly/3EsRmTM",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Binary Tree Representation in C++",
+    "Practice Link": "https://bit.ly/3gn5Soh",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Binary Tree Representation in Java",
+    "Practice Link": "https://bit.ly/3gn5Soh",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Binary Tree Traversals in Binary Tree",
+    "Practice Link": "https://www.codingninjas.com/codestudio/problems/tree-traversal_981269?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Preorder Traversal of Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Inorder Traversal of Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Post-order Traversal of Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Level order Traversal / Level order traversal in spiral form",
+    "Practice Link": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Iterative Preorder Traversal of Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Iterative Inorder Traversal of Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Post-order Traversal of Binary Tree using 2 stack",
+    "Practice Link": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Zig Zag Traversal of Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Vertical Order Traversal of Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Top View of Binary Tree",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search Tree",
+    "Problem": "Introduction to Binary Search Tree",
+    "Practice Link": "https://bit.ly/3gprRLk",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search Tree",
+    "Problem": "Search in a Binary Search Tree",
+    "Practice Link": "https://leetcode.com/problems/search-in-a-binary-search-tree/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search Tree",
+    "Problem": "Ceil in a Binary Search Tree",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/implementing-ceil-in-bst/1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search Tree",
+    "Problem": "Floor in a Binary Search Tree",
+    "Practice Link": "https://bit.ly/3TSbXXE",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search Tree",
+    "Problem": "Insert a given Node in Binary Search Tree",
+    "Practice Link": "https://leetcode.com/problems/insert-into-a-binary-search-tree/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Heap",
+    "Problem": "Kth largest element in an array [use priority queue]",
+    "Practice Link": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "Difficulty": "Easy",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Heap",
+    "Problem": "Kth smallest element in an array [use priority queue]",
+    "Practice Link": "https://bit.ly/3PvAOhK",
+    "Difficulty": "Easy",
+    "Company Name": "Microsoft"
+  },
+  {
+    "Title": "Heap",
+    "Problem": "Sort K sorted array",
+    "Practice Link": "https://bit.ly/3QLpaAs",
+    "Difficulty": "Easy",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Heap",
+    "Problem": "Replace each array element by its corresponding rank",
+    "Practice Link": "https://bit.ly/3TS3jcg",
+    "Difficulty": "Easy",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Heap",
+    "Problem": "Kth largest element in a stream of running integers",
+    "Practice Link": "https://leetcode.com/problems/kth-largest-element-in-a-stream/#:~:text=Implement%20KthLargest%20class%3A,largest%20element%20in%20the%20stream.",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Post-order Traversal of Binary Tree using 1 stack",
+    "Practice Link": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Preorder, Inorder, and Postorder Traversal in one Traversal",
+    "Practice Link": "https://bit.ly/3T3oW9M",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Height of a Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Check if the Binary tree is height-balanced or not",
+    "Practice Link": "https://leetcode.com/problems/balanced-binary-tree/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Diameter of Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Check if two trees are identical or not",
+    "Practice Link": "https://leetcode.com/problems/same-tree/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Boundary Traversal of Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/boundary-of-binary-tree/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Bottom View of Binary Tree",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Right/Left View of Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Symmetric Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/symmetric-tree/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Root to Node Path in Binary Tree",
+    "Practice Link": "https://bit.ly/3QA600D",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "LCA in Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "Difficulty": "Medium",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Maximum width of a Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/maximum-width-of-binary-tree/",
+    "Difficulty": "Medium",
+    "Company Name": "Facebook"
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Print all the Nodes at a distance of K in a Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
+    "Difficulty": "Medium",
+    "Company Name": "Microsoft"
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Count total Nodes in a COMPLETE Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/count-complete-tree-nodes/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Requirements needed to construct a Unique Binary Tree | Theory",
+    "Practice Link": "https://bit.ly/3UVCR1U",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Morris Preorder Traversal of a Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Morris Inorder Traversal of a Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search Tree",
+    "Problem": "Find Min/Max in BST",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/minimum-element-in-bst/1",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search Tree",
+    "Problem": "Delete a Node in Binary Search Tree",
+    "Practice Link": "https://leetcode.com/problems/delete-node-in-a-bst/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search Tree",
+    "Problem": "Find K-th smallest/largest element in BST",
+    "Practice Link": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search Tree",
+    "Problem": "Check if a tree is a BST or BT",
+    "Practice Link": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search Tree",
+    "Problem": "LCA in Binary Search Tree",
+    "Practice Link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search Tree",
+    "Problem": "Construct a BST from a preorder traversal",
+    "Practice Link": "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search Tree",
+    "Problem": "Inorder Successor/Predecessor in BST",
+    "Practice Link": "https://leetcode.com/problems/inorder-successor-in-bst/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search Tree",
+    "Problem": "Two Sum In BST | Check if there exists a pair with Sum K",
+    "Practice Link": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Heap",
+    "Problem": "Introduction to Priority Queues using Binary Heaps",
+    "Practice Link": "https://bit.ly/3TSxAHd",
+    "Difficulty": "Medium",
+    "Company Name": "Microsoft"
+  },
+  {
+    "Title": "Heap",
+    "Problem": "Min Heap and Max Heap Implementation",
+    "Practice Link": "https://bit.ly/3weGgP3",
+    "Difficulty": "Medium",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Heap",
+    "Problem": "Check if an array represents a min-heap or not",
+    "Practice Link": "https://bit.ly/3AbFrrI",
+    "Difficulty": "Medium",
+    "Company Name": "Facebook"
+  },
+  {
+    "Title": "Heap",
+    "Problem": "Convert min Heap to max Heap",
+    "Practice Link": "https://bit.ly/3flmw7c",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Heap",
+    "Problem": "Task Scheduler",
+    "Practice Link": "https://leetcode.com/problems/task-scheduler/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Heap",
+    "Problem": "Hands of Straights",
+    "Practice Link": "https://leetcode.com/problems/hand-of-straights/",
+    "Difficulty": "Medium",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Heap",
+    "Problem": "Design twitter",
+    "Practice Link": "https://leetcode.com/problems/design-twitter/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Heap",
+    "Problem": "Connect `n` ropes with minimal cost",
+    "Practice Link": "https://bit.ly/3QVb1jR",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Heap",
+    "Problem": "Maximum Sum Combination",
+    "Practice Link": "https://www.interviewbit.com/problems/maximum-sum-combinations/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Heap",
+    "Problem": "K most frequent elements",
+    "Practice Link": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Maximum path sum",
+    "Practice Link": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Check for Children Sum Property",
+    "Practice Link": "https://bit.ly/3dEr73g",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Minimum time taken to BURN the Binary Tree from a Node",
+    "Practice Link": "https://bit.ly/3wcg7k1",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Construct Binary Tree from inorder and preorder",
+    "Practice Link": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Construct the Binary Tree from Postorder and Inorder Traversal",
+    "Practice Link": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Serialize and deserialize Binary Tree",
+    "Practice Link": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Tree",
+    "Problem": "Flatten Binary Tree to LinkedList",
+    "Practice Link": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search Tree",
+    "Problem": "Merge 2 BST's",
+    "Practice Link": "https://leetcode.com/problems/binary-search-tree-iterator/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search Tree",
+    "Problem": "Recover BST | Correct BST with two nodes swapped",
+    "Practice Link": "https://leetcode.com/problems/recover-binary-search-tree/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search Tree",
+    "Problem": "Largest BST in Binary Tree",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/largest-bst/1",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Heap",
+    "Problem": "Merge M sorted Lists",
+    "Practice Link": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Heap",
+    "Problem": "Find Median from Data Stream",
+    "Practice Link": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Graph and Types",
+    "Practice Link": "https://bit.ly/3gpY19t",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Graph Representation | C++",
+    "Practice Link": "https://bit.ly/3dGuwyv",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Graph Representation | Java",
+    "Practice Link": "https://bit.ly/3dGuwyv",
+    "Difficulty": "Easy",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "BFS",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Number of provinces (leetcode)",
+    "Practice Link": "https://leetcode.com/problems/number-of-provinces/#:~:text=A%20province%20is%20a%20group,the%20total%20number%20of%20provinces.",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Rotten Oranges",
+    "Practice Link": "https://leetcode.com/problems/rotting-oranges/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "0/1 Matrix (Bfs Problem)",
+    "Practice Link": "https://leetcode.com/problems/01-matrix/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Bipartite Graph (DFS)",
+    "Practice Link": "https://leetcode.com/problems/is-graph-bipartite/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Why priority Queue is used in Djisktra's Algorithm",
+    "Practice Link": "https://bit.ly/3Et6alk",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Shortest path in a binary maze",
+    "Practice Link": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+    "Difficulty": "Medium",
+    "Company Name": "Not Mentioned"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Path with minimum effort",
+    "Practice Link": "https://leetcode.com/problems/path-with-minimum-effort/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Network Delay time",
+    "Practice Link": "https://leetcode.com/problems/network-delay-time/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Number of ways to arrive at destination",
+    "Practice Link": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Number of operations to make network connected",
+    "Practice Link": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Most stones removed with same rows or columns",
+    "Practice Link": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Connected Components | Logic Explanation",
+    "Practice Link": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "DFS",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Connected Components Problem in Matrix",
+    "Practice Link": "https://bit.ly/3AxzhDG",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Flood fill",
+    "Practice Link": "https://leetcode.com/problems/flood-fill/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Cycle Detection in unirected Graph (bfs)",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=detect-cycle-in-an-undirected-graph",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Cycle Detection in undirected Graph (dfs)",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=detect-cycle-in-an-undirected-graph",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Surrounded Regions (dfs)",
+    "Practice Link": "https://leetcode.com/problems/surrounded-regions/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Microsoft"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Number of Enclaves [flood fill implementation - multisource]",
+    "Practice Link": "https://leetcode.com/problems/number-of-enclaves/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Microsoft"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Word ladder - 1",
+    "Practice Link": "https://leetcode.com/problems/word-ladder/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Word ladder - 2",
+    "Practice Link": "https://leetcode.com/problems/word-ladder-ii/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Number of Distinct Islands [dfs multisource]",
+    "Practice Link": "https://leetcode.com/problems/number-of-distinct-islands-ii/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Cycle Detection in Directed Graph (DFS)",
+    "Practice Link": "https://leetcode.com/problems/course-schedule-ii/discuss/293048/detecting-cycle-in-directed-graph-problem",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Topo Sort",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/topological-sort/1",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Kahn's Algorithm",
+    "Practice Link": "https://bit.ly/3c690mm",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Cycle Detection in Directed Graph (BFS)",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Course Schedule - I",
+    "Practice Link": "https://leetcode.com/problems/course-schedule/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Course Schedule - II",
+    "Practice Link": "https://leetcode.com/problems/course-schedule-ii/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Find eventual safe states",
+    "Practice Link": "https://leetcode.com/problems/find-eventual-safe-states/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Alien dictionary",
+    "Practice Link": "https://leetcode.com/problems/alien-dictionary/solution/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Microsoft"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Shortest Path in UG with unit weights",
+    "Practice Link": "https://bit.ly/3UVQD4C",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Shortest Path in DAG",
+    "Practice Link": "https://bit.ly/3Eo1mhq",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Djisktra's Algorithm",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Cheapest flights within k stops",
+    "Practice Link": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Minimum steps to reach end from start by performing multiplication and mod operations with array elements",
+    "Practice Link": "https://bit.ly/3QAEsrY",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Bellman Ford Algorithm",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Floyd Warshal Algorithm",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Find the city with the smallest number of neighbors in a threshold distance",
+    "Practice Link": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google, Facebook"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Minimum Spanning Tree",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Microsoft, Google, Adobe, Flipkart, Samsung, Qualcomm, Goldman Sachs, Uber"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Prim's Algorithm",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Microsoft, Google, Adobe, Flipkart, Samsung, Qualcomm, Goldman Sachs, Uber"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Disjoint Set [Union by Rank]",
+    "Practice Link": "https://bit.ly/3QSGvHz",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Disjoint Set [Union by Size]",
+    "Practice Link": "https://bit.ly/3QSGvHz",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Kruskal's Algorithm",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Microsoft, Google, Adobe, Qualcomm, Goldman Sachs, Uber"
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Accounts merge",
+    "Practice Link": "https://leetcode.com/problems/accounts-merge/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Number of island II",
+    "Practice Link": "https://leetcode.com/problems/number-of-islands-ii/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Making a Large Island",
+    "Practice Link": "https://leetcode.com/problems/making-a-large-island/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Swim in rising water",
+    "Practice Link": "https://leetcode.com/problems/swim-in-rising-water/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Bridges in Graph",
+    "Practice Link": "https://leetcode.com/problems/critical-connections-in-a-network/discuss/382385/find-bridges-in-a-graph",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Articulation Point",
+    "Practice Link": "https://bit.ly/3T2LPKu",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Graphs",
+    "Problem": "Kosaraju's Algorithm",
+    "Practice Link": "https://bit.ly/3TbvByL",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Sorting",
+    "Problem": "Selection Sort",
+    "Practice Link": "https://bit.ly/3ppA6YJ",
+    "Difficulty": "Easy",
+    "Company Name": "Google, Amazon, Microsoft"
+  },
+  {
+    "Title": "Sorting",
+    "Problem": "Bubble Sort",
+    "Practice Link": "https://bit.ly/3w6yQx8",
+    "Difficulty": "Easy",
+    "Company Name": "Google, Amazon, Microsoft, Meta"
+  },
+  {
+    "Title": "Sorting",
+    "Problem": "Insertion Sort",
+    "Practice Link": "https://bit.ly/3JVcqot",
+    "Difficulty": "Easy",
+    "Company Name": "Google, Amazon, Microsoft, Adobe"
+  },
+  {
+    "Title": "Sorting",
+    "Problem": "Recursive Bubble Sort",
+    "Practice Link": "https://bit.ly/3QV65vI",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Sorting",
+    "Problem": "Recursive Insertion Sort",
+    "Practice Link": "https://bit.ly/3PxAWx1",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Sorting",
+    "Problem": "Quick Sort",
+    "Practice Link": "https://bit.ly/3dsEbIK",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Binary Search to find X in sorted array",
+    "Practice Link": "https://leetcode.com/problems/binary-search/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Implement Lower Bound",
+    "Practice Link": "https://bit.ly/3Cf398N",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Implement Upper Bound",
+    "Practice Link": "https://bit.ly/3CgDDjE",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Search Insert Position",
+    "Practice Link": "https://leetcode.com/problems/search-insert-position/#:~:text=Search%20Insert%20Position%20%2D%20LeetCode&text=Given%20a%20sorted%20array%20of,(log%20n)%20runtime%20complexity.",
+    "Difficulty": "Easy",
+    "Company Name": "Google, Amazon, Microsoft"
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Find the first or last occurrence of a given number in a sorted array",
+    "Practice Link": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+    "Difficulty": "Easy",
+    "Company Name": "Google, Amazon, Microsoft"
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Count occurrences of a number in a sorted array with duplicates",
+    "Practice Link": "https://bit.ly/3SVcOqW",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Find out how many times has an array been rotated",
+    "Practice Link": "https://bit.ly/3dEvWJD",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Single element in a Sorted Array",
+    "Practice Link": "https://leetcode.com/problems/single-element-in-a-sorted-array/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Find the smallest Divisor",
+    "Practice Link": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Kth Missing Positive Number",
+    "Practice Link": "https://leetcode.com/problems/kth-missing-positive-number/#:~:text=Given%20an%20array%20arr%20of,13%2C...%5D.",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Find the row with maximum number of 1's",
+    "Practice Link": "https://bit.ly/3QNDw2W",
+    "Difficulty": "Easy",
+    "Company Name": ""
+  },
+  {
+    "Title": "Sorting",
+    "Problem": "Merge Sort",
+    "Practice Link": "https://bit.ly/3A30Anw",
+    "Difficulty": "Medium",
+    "Company Name": "Google, Amazon, Microsoft, Meta, Apple"
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Floor/Ceil in Sorted Array",
+    "Practice Link": "https://www.codingninjas.com/codestudio/problems/ceiling-in-a-sorted-array_1825401",
+    "Difficulty": "Medium",
+    "Company Name": "Google, Amazon, Microsoft"
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Search in Rotated Sorted Array I",
+    "Practice Link": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Search in Rotated Sorted Array II",
+    "Practice Link": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+    "Difficulty": "Medium",
+    "Company Name": "Google, Amazon, Microsoft"
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Find minimum in Rotated Sorted Array",
+    "Practice Link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Find square root of a number in log n",
+    "Practice Link": "https://bit.ly/3JXtGcE",
+    "Difficulty": "Medium",
+    "Company Name": "Google, Amazon, Microsoft"
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Find the Nth root of a number using binary search",
+    "Practice Link": "https://bit.ly/3zWNyrL",
+    "Difficulty": "Medium",
+    "Company Name": "Google, Amazon, Microsoft"
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Kth element of 2 sorted arrays",
+    "Practice Link": "https://bit.ly/3Amcomr",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Search in a 2 D matrix",
+    "Practice Link": "https://leetcode.com/problems/search-a-2d-matrix/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Search in a row and column wise sorted matrix",
+    "Practice Link": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Find peak element",
+    "Practice Link": "https://leetcode.com/problems/find-peak-element/#:~:text=Find%20Peak%20Element%20%2D%20LeetCode&text=A%20peak%20element%20is%20an,to%20any%20of%20the%20peaks.",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Koko Eating Bananas",
+    "Practice Link": "https://leetcode.com/problems/koko-eating-bananas/",
+    "Difficulty": "Hard",
+    "Company Name": "Google, Amazon, Microsoft"
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Minimum days to make M bouquets",
+    "Practice Link": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+    "Difficulty": "Hard",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Capacity to Ship Packages within D Days",
+    "Practice Link": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Aggressive Cows",
+    "Practice Link": "https://www.spoj.com/problems/AGGRCOW/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Book Allocation Problem",
+    "Practice Link": "https://bit.ly/3MZQOct",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Split array - Largest Sum",
+    "Practice Link": "https://leetcode.com/problems/split-array-largest-sum/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Painter's partition",
+    "Practice Link": "https://www.codingninjas.com/studio/problems/painter-s-partition-problem_1089557?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Microsoft"
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Minimize Max Distance to Gas Station",
+    "Practice Link": "https://leetcode.com/problems/minimize-max-distance-to-gas-station/",
+    "Difficulty": "Hard",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Median of 2 sorted arrays",
+    "Practice Link": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "Difficulty": "Hard",
+    "Company Name": "Google, Amazon, Microsoft, Adobe"
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Find Peak Element (2D Matrix)",
+    "Practice Link": "https://leetcode.com/problems/find-a-peak-element-ii/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Binary Search",
+    "Problem": "Matrix Median",
+    "Practice Link": "https://bit.ly/3PvwuPk",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Dynamic Programming Introduction",
+    "Practice Link": "https://bit.ly/3UWkWrS",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Climbing Stars",
+    "Practice Link": "https://leetcode.com/problems/climbing-stairs/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Frog Jump(DP-3)",
+    "Practice Link": "https://bit.ly/3Xn0Kkw",
+    "Difficulty": "Medium",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Frog Jump with k distances(DP-4)",
+    "Practice Link": "https://bit.ly/3GyNRya",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Maximum sum of non-adjacent elements (DP 5)",
+    "Practice Link": "https://leetcode.com/problems/house-robber/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "House Robber (DP 6)",
+    "Practice Link": "https://leetcode.com/problems/house-robber-ii/",
+    "Difficulty": "Medium",
+    "Company Name": "Facebook"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Ninja's Training (DP 7)",
+    "Practice Link": "https://bit.ly/3glc9kp",
+    "Difficulty": "Medium",
+    "Company Name": "Facebook"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Grid Unique Paths : DP on Grids (DP8)",
+    "Practice Link": "https://leetcode.com/problems/unique-paths/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Grid Unique Paths 2 (DP 9)",
+    "Practice Link": "https://leetcode.com/problems/unique-paths-ii/",
+    "Difficulty": "Medium",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Minimum path sum in Grid (DP 10)",
+    "Practice Link": "https://leetcode.com/problems/minimum-path-sum/",
+    "Difficulty": "Medium",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Minimum path sum in Triangular Grid (DP 11)",
+    "Practice Link": "https://leetcode.com/problems/triangle/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Minimum/Maximum Falling Path Sum (DP-12)",
+    "Practice Link": "https://leetcode.com/problems/minimum-falling-path-sum/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "3-d DP : Ninja and his friends (DP-13)",
+    "Practice Link": "https://bit.ly/3U9k6XT",
+    "Difficulty": "Medium",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Subset sum equal to target (DP- 14)",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Partition Equal Subset Sum (DP- 15)",
+    "Practice Link": "https://leetcode.com/problems/partition-equal-subset-sum/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Partition Set Into 2 Subsets With Min Absolute Sum Diff (DP- 16)",
+    "Practice Link": "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Count Subsets with Sum K (DP - 17)",
+    "Practice Link": "https://bit.ly/3AwVr8I",
+    "Difficulty": "Medium",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Count Partitions with Given Difference (DP - 18)",
+    "Practice Link": "https://bit.ly/3gkAM0s",
+    "Difficulty": "Medium",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Target Sum (DP - 21)",
+    "Practice Link": "https://leetcode.com/problems/target-sum/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Wildcard Matching | (DP-34)",
+    "Practice Link": "https://leetcode.com/problems/wildcard-matching/",
+    "Difficulty": "Medium",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Assign Cookies",
+    "Practice Link": "https://leetcode.com/problems/assign-cookies/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Minimum Coins (DP - 20)",
+    "Practice Link": "https://leetcode.com/problems/coin-change/",
+    "Difficulty": "Hard",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Coin Change 2 (DP - 22)",
+    "Practice Link": "https://leetcode.com/problems/coin-change-2/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Unbounded Knapsack (DP - 23)",
+    "Practice Link": "https://bit.ly/3Cbc5fz",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Rod Cutting Problem | (DP - 24)",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/rod-cutting0840/1",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Longest Common Subsequence | (DP - 25)",
+    "Practice Link": "https://leetcode.com/problems/longest-common-subsequence/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Print Longest Common Subsequence | (DP - 26)",
+    "Practice Link": "https://bit.ly/3T1Va4U",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Longest Common Substring | (DP - 27)",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Longest Palindromic Subsequence | (DP-28)",
+    "Practice Link": "https://leetcode.com/problems/longest-palindromic-subsequence/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Minimum insertions to make string palindrome | DP-29",
+    "Practice Link": "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Minimum Insertions/Deletions to Convert String | (DP- 30)",
+    "Practice Link": "https://leetcode.com/problems/delete-operation-for-two-strings/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Shortest Common Supersequence | (DP - 31)",
+    "Practice Link": "https://leetcode.com/problems/shortest-common-supersequence/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Distinct Subsequences| (DP-32)",
+    "Practice Link": "https://leetcode.com/problems/distinct-subsequences/",
+    "Difficulty": "Hard",
+    "Company Name": ""
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Edit Distance | (DP-33)",
+    "Practice Link": "https://leetcode.com/problems/edit-distance/",
+    "Difficulty": "Hard",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Best Time to Buy and Sell Stock |(DP-35)",
+    "Practice Link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Facebook, Google, Meta"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Buy and Sell Stock - II|(DP-36)",
+    "Practice Link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Microsoft"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Buy and Sell Stocks III|(DP-37)",
+    "Practice Link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/",
+    "Difficulty": "Hard",
+    "Company Name": "Facebook, Google"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Buy and Stock Sell IV |(DP-38)",
+    "Practice Link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Microsoft"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Buy and Sell Stocks With Cooldown|(DP-39)",
+    "Practice Link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+    "Difficulty": "Hard",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Buy and Sell Stocks With Transaction Fee|(DP-40)",
+    "Practice Link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/",
+    "Difficulty": "Hard",
+    "Company Name": "Meta"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Longest Increasing Subsequence |(DP-41)",
+    "Practice Link": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Google"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Printing Longest Increasing Subsequence|(DP-42)",
+    "Practice Link": "https://bit.ly/3XiRbmG",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Longest Increasing Subsequence |(DP-43)",
+    "Practice Link": "https://bit.ly/3Pxf84L",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Largest Divisible Subset|(DP-44)",
+    "Practice Link": "https://leetcode.com/problems/largest-divisible-subset/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Longest String Chain|(DP-45)",
+    "Practice Link": "https://leetcode.com/problems/longest-string-chain/",
+    "Difficulty": "Hard",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Longest Bitonic Subsequence |(DP-46)",
+    "Practice Link": "https://practice.geeksforgeeks.org/problems/longest-bitonic-subsequence0824/1",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Number of Longest Increasing Subsequences|(DP-47)",
+    "Practice Link": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/",
+    "Difficulty": "Hard",
+    "Company Name": "Facebook"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Matrix Chain Multiplication|(DP-48)",
+    "Practice Link": "https://bit.ly/3Cgg36D",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Matrix Chain Multiplication | Bottom-Up|(DP-49)",
+    "Practice Link": "https://bit.ly/3Cgg36D",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Minimum Cost to Cut the Stick|(DP-50)",
+    "Practice Link": "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/",
+    "Difficulty": "Hard",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Burst Balloons|(DP-51)",
+    "Practice Link": "https://leetcode.com/problems/burst-balloons/",
+    "Difficulty": "Hard",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Evaluate Boolean Expression to True|(DP-52)",
+    "Practice Link": "https://leetcode.com/problems/parsing-a-boolean-expression/",
+    "Difficulty": "Hard",
+    "Company Name": "Facebook"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Palindrome Partitioning - II|(DP-53)",
+    "Practice Link": "https://leetcode.com/problems/palindrome-partitioning-ii/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Partition Array for Maximum Sum|(DP-54)",
+    "Practice Link": "https://leetcode.com/problems/partition-array-for-maximum-sum/",
+    "Difficulty": "Hard",
+    "Company Name": "Google"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Maximum Rectangle Area with all 1's|(DP-55)",
+    "Practice Link": "https://leetcode.com/problems/maximal-rectangle/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Microsoft, Directi, Intuit, MakeMyTrip"
+  },
+  {
+    "Title": "Step 16 : Dynamic Programming [Patterns and Problems]",
+    "Problem": "Count Square Submatrices with All Ones|(DP-56)",
+    "Practice Link": "https://leetcode.com/problems/count-square-submatrices-with-all-ones/",
+    "Difficulty": "Hard",
+    "Company Name": "Amazon, Microsoft, Google"
+  }
+]
