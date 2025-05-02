@@ -42,10 +42,22 @@ CREATE TABLE IF NOT EXISTS public.completed_problems (
   UNIQUE(user_id, problem_id)
 );
 
+-- Create problem_notes table
+CREATE TABLE IF NOT EXISTS public.problem_notes (
+  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  user_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
+  problem_id TEXT NOT NULL,
+  note TEXT NOT NULL,
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()),
+  updated_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()),
+  UNIQUE(user_id, problem_id)
+);
+
 -- Enable Row Level Security
 ALTER TABLE public.user_profiles ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.daily_activity ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.completed_problems ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.problem_notes ENABLE ROW LEVEL SECURITY;
 
 -- User profiles policies
 CREATE POLICY "Anyone can view user profiles"
@@ -86,6 +98,23 @@ CREATE POLICY "Users can insert their daily activity"
 
 CREATE POLICY "Users can update their daily activity"
   ON public.daily_activity FOR UPDATE
+  USING (auth.uid() = user_id AND auth.uid() IS NOT NULL);
+
+-- Problem notes policies
+CREATE POLICY "Anyone can view problem notes"
+  ON public.problem_notes FOR SELECT
+  USING (true);
+
+CREATE POLICY "Users can insert their problem notes"
+  ON public.problem_notes FOR INSERT
+  WITH CHECK (auth.uid() = user_id AND auth.uid() IS NOT NULL);
+
+CREATE POLICY "Users can update their problem notes"
+  ON public.problem_notes FOR UPDATE
+  USING (auth.uid() = user_id AND auth.uid() IS NOT NULL);
+
+CREATE POLICY "Users can delete their problem notes"
+  ON public.problem_notes FOR DELETE
   USING (auth.uid() = user_id AND auth.uid() IS NOT NULL);
 
 -- Function to update streak count
@@ -154,7 +183,7 @@ BEGIN
 
   -- Update user profile
   UPDATE public.user_profiles
-  SET 
+  SET
     last_submission_date = CURRENT_DATE,
     streak_count = streak,
     problems_solved = problems_solved + 1

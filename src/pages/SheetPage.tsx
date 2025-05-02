@@ -1,10 +1,10 @@
-import { useState, useEffect } from 'react';
+import { AlertCircle, SlidersHorizontal } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { SlidersHorizontal, AlertCircle } from 'lucide-react';
-import { ProblemAccordion } from '../components/ProblemAccordion';
-import { Problem, Difficulty } from '../types/problem';
-import { useProblems } from '../contexts/ProblemContext';
 import DashboardStats from '../components/dashboard/DashboardStats';
+import { ProblemAccordion } from '../components/ProblemAccordion';
+import { useProblems } from '../contexts/ProblemContext';
+import { Difficulty, Problem } from '../types/problem';
 
 const SheetPage: React.FC = () => {
   const { sheetId } = useParams<{ sheetId: string }>();
@@ -17,20 +17,20 @@ const SheetPage: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
 
   // Calculate problem statistics
-  const completedCount = problems.filter(p => completedProblems.includes(p.id)).length;
-  
+  const completedCount = problems.filter(p => completedProblems.includes(p.Problem)).length;
+
   // Calculate difficulty statistics
   const easyProblems = problems.filter(p => p.Difficulty?.toLowerCase() === 'easy');
   const mediumProblems = problems.filter(p => p.Difficulty?.toLowerCase() === 'medium');
   const hardProblems = problems.filter(p => p.Difficulty?.toLowerCase() === 'hard');
-  
+
   const easyTotal = easyProblems.length;
   const mediumTotal = mediumProblems.length;
   const hardTotal = hardProblems.length;
-  
-  const easyCompleted = easyProblems.filter(p => completedProblems.includes(p.id)).length;
-  const mediumCompleted = mediumProblems.filter(p => completedProblems.includes(p.id)).length;
-  const hardCompleted = hardProblems.filter(p => completedProblems.includes(p.id)).length;
+
+  const easyCompleted = easyProblems.filter(p => completedProblems.includes(p.Problem)).length;
+  const mediumCompleted = mediumProblems.filter(p => completedProblems.includes(p.Problem)).length;
+  const hardCompleted = hardProblems.filter(p => completedProblems.includes(p.Problem)).length;
 
   const getSheetTitle = () => {
     switch (sheetId) {
@@ -62,7 +62,7 @@ const SheetPage: React.FC = () => {
           throw new Error('Failed to fetch data');
         }
         const data = await response.json();
-        
+
         // Clean and normalize the data
         const cleanedData = data.map((problem: Problem, index: number) => {
           // Clean up and validate difficulty
@@ -98,14 +98,14 @@ const SheetPage: React.FC = () => {
   // Apply difficulty filter when changed
   useEffect(() => {
     let result = [...problems];
-    
+
     if (selectedDifficulty) {
       result = result.filter(problem => {
         const problemDifficulty = problem.Difficulty?.trim();
         return problemDifficulty && problemDifficulty.toLowerCase() === selectedDifficulty.toLowerCase();
       });
     }
-    
+
     setFilteredProblems(result);
   }, [selectedDifficulty, problems]);
 
@@ -113,16 +113,16 @@ const SheetPage: React.FC = () => {
   const problemsByTopic = filteredProblems.reduce((acc, problem) => {
     // Skip empty topics
     if (!problem.Title.trim()) return acc;
-    
+
     if (!acc[problem.Title]) {
       acc[problem.Title] = [];
     }
     acc[problem.Title].push(problem);
     return acc;
   }, {} as Record<string, Problem[]>);
-  
+
   // Sort topics alphabetically
-  const sortedTopics = Object.entries(problemsByTopic).sort((a, b) => 
+  const sortedTopics = Object.entries(problemsByTopic).sort((a, b) =>
     a[0].localeCompare(b[0])
   );
 
@@ -226,10 +226,10 @@ const SheetPage: React.FC = () => {
               <h2 className="font-semibold mb-4 text-foreground">Difficulty</h2>
               <div className="space-y-2">
                 {(['Easy', 'Medium', 'Hard'] as Difficulty[]).map((difficulty) => {
-                  const count = problems.filter(p => 
+                  const count = problems.filter(p =>
                     p.Difficulty?.toLowerCase() === difficulty.toLowerCase()
                   ).length;
-                  
+
                   return (
                     <button
                       key={difficulty}
@@ -254,9 +254,9 @@ const SheetPage: React.FC = () => {
         <div>
           {sortedTopics.length > 0 ? (
             sortedTopics.map(([title, problems]) => (
-              <ProblemAccordion 
-                key={title} 
-                title={title} 
+              <ProblemAccordion
+                key={title}
+                title={title}
                 problems={problems}
               />
             ))

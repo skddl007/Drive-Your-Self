@@ -1,32 +1,45 @@
+import { AlertCircle, Lock, Mail } from 'lucide-react';
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import { Mail, Lock, AlertCircle } from 'lucide-react';
 
 const LoginPage: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
-  
+
   const { login } = useAuth();
   const navigate = useNavigate();
-  
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
     setIsLoading(true);
-    
+
     try {
+      console.log('Attempting to login with:', email);
+
+      // Call the login function from AuthContext
       await login(email, password);
-      navigate('/dashboard');
+
+      console.log('Login successful, navigating to dashboard');
+
+      // Add a longer delay to ensure the context is fully updated
+      // This gives time for the user profile to be fetched
+      setTimeout(() => {
+        console.log('Delayed navigation to dashboard');
+        navigate('/dashboard', { replace: true });
+      }, 1500);
+
     } catch (err: any) {
+      console.error('Login error in component:', err);
       setError(err.message || 'Invalid email or password. Please try again.');
     } finally {
       setIsLoading(false);
     }
   };
-  
+
   return (
     <div className="container mx-auto px-4 py-16 flex justify-center">
       <div className="w-full max-w-md">
@@ -34,14 +47,14 @@ const LoginPage: React.FC = () => {
           <h1 className="text-2xl font-bold text-center text-gray-900 dark:text-white mb-8">
             Welcome Back
           </h1>
-          
+
           {error && (
             <div className="mb-6 bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-400 p-3 rounded-lg flex items-start gap-3">
               <AlertCircle size={18} className="mt-0.5 shrink-0" />
               <p>{error}</p>
             </div>
           )}
-          
+
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
@@ -62,7 +75,7 @@ const LoginPage: React.FC = () => {
                 />
               </div>
             </div>
-            
+
             <div>
               <label htmlFor="password" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                 Password
@@ -87,7 +100,7 @@ const LoginPage: React.FC = () => {
                 </a>
               </div>
             </div>
-            
+
             <button
               type="submit"
               className={`w-full py-3 px-4 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg text-center transition-colors duration-300 ${
@@ -108,7 +121,7 @@ const LoginPage: React.FC = () => {
               )}
             </button>
           </form>
-          
+
           <div className="mt-8 text-center">
             <p className="text-gray-600 dark:text-gray-400">
               Don't have an account?{' '}

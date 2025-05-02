@@ -18,26 +18,26 @@ const ProblemDistribution: React.FC<ProblemDistributionProps> = ({
   hardCompleted
 }) => {
   const totalProblems = easyTotal + mediumTotal + hardTotal;
-  
-  // Calculate percentages for the chart
-  const easyWidth = (easyTotal / totalProblems) * 100;
-  const mediumWidth = (mediumTotal / totalProblems) * 100;
-  const hardWidth = (hardTotal / totalProblems) * 100;
-  
-  // Calculate completion percentages
-  const easyCompletionPercent = (easyCompleted / easyTotal) * 100;
-  const mediumCompletionPercent = (mediumCompleted / mediumTotal) * 100;
-  const hardCompletionPercent = (hardCompleted / hardTotal) * 100;
-  
+
+  // Calculate percentages for the chart (handle division by zero)
+  const easyWidth = totalProblems > 0 ? (easyTotal / totalProblems) * 100 : 0;
+  const mediumWidth = totalProblems > 0 ? (mediumTotal / totalProblems) * 100 : 0;
+  const hardWidth = totalProblems > 0 ? (hardTotal / totalProblems) * 100 : 0;
+
+  // Calculate completion percentages (handle division by zero)
+  const easyCompletionPercent = easyTotal > 0 ? (easyCompleted / easyTotal) * 100 : 0;
+  const mediumCompletionPercent = mediumTotal > 0 ? (mediumCompleted / mediumTotal) * 100 : 0;
+  const hardCompletionPercent = hardTotal > 0 ? (hardCompleted / hardTotal) * 100 : 0;
+
   return (
     <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 h-full border border-gray-100 dark:border-gray-700">
       <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
         Problem Distribution & Progress
       </h2>
-      
+
       <div className="flex w-full h-10 rounded-lg overflow-hidden mb-8">
-        <div 
-          className="bg-green-500 h-full relative group" 
+        <div
+          className="bg-green-500 h-full relative group"
           style={{ width: `${easyWidth}%` }}
         >
           <div className="absolute inset-0 flex items-center justify-center text-white font-medium text-sm">
@@ -47,8 +47,8 @@ const ProblemDistribution: React.FC<ProblemDistributionProps> = ({
             {easyTotal} problems
           </div>
         </div>
-        <div 
-          className="bg-yellow-500 h-full relative group" 
+        <div
+          className="bg-yellow-500 h-full relative group"
           style={{ width: `${mediumWidth}%` }}
         >
           <div className="absolute inset-0 flex items-center justify-center text-white font-medium text-sm">
@@ -58,8 +58,8 @@ const ProblemDistribution: React.FC<ProblemDistributionProps> = ({
             {mediumTotal} problems
           </div>
         </div>
-        <div 
-          className="bg-red-500 h-full relative group" 
+        <div
+          className="bg-red-500 h-full relative group"
           style={{ width: `${hardWidth}%` }}
         >
           <div className="absolute inset-0 flex items-center justify-center text-white font-medium text-sm">
@@ -70,7 +70,7 @@ const ProblemDistribution: React.FC<ProblemDistributionProps> = ({
           </div>
         </div>
       </div>
-      
+
       <div className="space-y-6">
         <div>
           <div className="flex justify-between items-center mb-2">
@@ -83,13 +83,13 @@ const ProblemDistribution: React.FC<ProblemDistributionProps> = ({
             </div>
           </div>
           <div className="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
-            <div 
-              className="h-full bg-green-500 rounded-full" 
+            <div
+              className="h-full bg-green-500 rounded-full"
               style={{ width: `${easyCompletionPercent}%` }}
             ></div>
           </div>
         </div>
-        
+
         <div>
           <div className="flex justify-between items-center mb-2">
             <div className="flex items-center gap-2">
@@ -101,13 +101,13 @@ const ProblemDistribution: React.FC<ProblemDistributionProps> = ({
             </div>
           </div>
           <div className="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
-            <div 
-              className="h-full bg-yellow-500 rounded-full" 
+            <div
+              className="h-full bg-yellow-500 rounded-full"
               style={{ width: `${mediumCompletionPercent}%` }}
             ></div>
           </div>
         </div>
-        
+
         <div>
           <div className="flex justify-between items-center mb-2">
             <div className="flex items-center gap-2">
@@ -119,8 +119,8 @@ const ProblemDistribution: React.FC<ProblemDistributionProps> = ({
             </div>
           </div>
           <div className="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
-            <div 
-              className="h-full bg-red-500 rounded-full" 
+            <div
+              className="h-full bg-red-500 rounded-full"
               style={{ width: `${hardCompletionPercent}%` }}
             ></div>
           </div>

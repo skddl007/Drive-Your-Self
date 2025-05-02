@@ -1,6 +1,9 @@
-import { useState, useEffect } from 'react';
 import { ChevronDown, Star } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
+import { useAuth } from '../contexts/AuthContext';
+import { useProblems } from '../contexts/ProblemContext';
 import { Problem } from '../types/problem';
 import { NoteModal } from './NoteModal';
 
@@ -10,6 +13,9 @@ interface ProblemAccordionProps {
 }
 
 export function ProblemAccordion({ title, problems: initialProblems }: ProblemAccordionProps) {
+  const { completedProblems, markProblemCompleted, getProblemNote, saveProblemNote } = useProblems();
+  const { isAuthenticated } = useAuth();
+  const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
   const [selectedProblem, setSelectedProblem] = useState<Problem | null>(null);
   const [isNoteModalOpen, setIsNoteModalOpen] = useState(false);
@@ -17,21 +23,17 @@ export function ProblemAccordion({ title, problems: initialProblems }: ProblemAc
     const saved = localStorage.getItem('starredProblems');
     return saved ? new Set(JSON.parse(saved)) : new Set();
   });
-  const [completedProblems, setCompletedProblems] = useState<Set<string>>(() => {
-    const saved = localStorage.getItem('completedProblems');
-    return saved ? new Set(JSON.parse(saved)) : new Set();
-  });
   const [problems, setProblems] = useState<Problem[]>(initialProblems);
 
   // Update problems when initialProblems changes
   useEffect(() => {
-    const savedNotes = JSON.parse(localStorage.getItem('problemNotes') || '{}');
+    // Update problems with notes from the context
     const updatedProblems = initialProblems.map(p => ({
       ...p,
-      Note: savedNotes[p.Problem] || p.Note
+      Note: getProblemNote(p.Problem) || p.Note
     }));
     setProblems(updatedProblems);
-  }, [initialProblems]);
+  }, [initialProblems, getProblemNote]);
 
   const getPlatformIcon = (url: string) => {
     if (url.includes('leetcode.com')) {
@@ -55,26 +57,35 @@ export function ProblemAccordion({ title, problems: initialProblems }: ProblemAc
     setIsNoteModalOpen(true);
   };
 
-  const handleNoteSave = (note: string) => {
+  const handleNoteSave = async (note: string) => {
     if (selectedProblem) {
-      // Update the problem in the problems array with the new note
-      const updatedProblems = problems.map(p => {
-        if (p.Problem === selectedProblem.Problem) {
-          return { ...p, Note: note };
+      try {
+        if (!isAuthenticated) {
+          // Redirect to login if not authenticated
+          navigate('/login');
+          return;
         }
-        return p;
-      });
 
-      // Update problems
-      setProblems(updatedProblems);
+        // Save note to database
+        await saveProblemNote(selectedProblem.Problem, note);
 
-      // Save to localStorage
-      const savedNotes = JSON.parse(localStorage.getItem('problemNotes') || '{}');
-      savedNotes[selectedProblem.Problem] = note;
-      localStorage.setItem('problemNotes', JSON.stringify(savedNotes));
+        // Update the problem in the problems array with the new note
+        const updatedProblems = problems.map(p => {
+          if (p.Problem === selectedProblem.Problem) {
+            return { ...p, Note: note };
+          }
+          return p;
+        });
 
-      // Close the modal
-      setIsNoteModalOpen(false);
+        // Update problems
+        setProblems(updatedProblems);
+
+        // Close the modal
+        setIsNoteModalOpen(false);
+      } catch (error) {
+        console.error('Error saving note:', error);
+        alert('Failed to save note. Please try again.');
+      }
     }
   };
 
@@ -88,13 +99,13 @@ export function ProblemAccordion({ title, problems: initialProblems }: ProblemAc
           <h2 className="text-lg font-semibold text-foreground">{title}</h2>
           <div className="flex items-center gap-2">
             <div className="h-2 flex-grow bg-muted rounded-full overflow-hidden">
-              <div 
-                className="h-full bg-green-500 transition-all duration-300" 
-                style={{ width: `${(Array.from(completedProblems).filter(id => problems.some(p => p.Problem === id)).length / problems.length) * 100}%` }}
+              <div
+                className="h-full bg-green-500 transition-all duration-300"
+                style={{ width: `${(problems.filter(p => completedProblems.includes(p.Problem)).length / problems.length) * 100}%` }}
               />
             </div>
             <span className="text-sm text-muted-foreground">
-              {Array.from(completedProblems).filter(id => problems.some(p => p.Problem === id)).length}/{problems.length}
+              {problems.filter(p => completedProblems.includes(p.Problem)).length}/{problems.length}
             </span>
           </div>
         </div>
@@ -125,19 +136,10 @@ export function ProblemAccordion({ title, problems: initialProblems }: ProblemAc
                   <tr key={`${problem.id}-${index}`} className="border-b border-border">
                     <td className="p-3">
                       <button
-                        onClick={() => {
-                          const newCompleted = new Set(completedProblems);
-                          if (completedProblems.has(problem.Problem)) {
-                            newCompleted.delete(problem.Problem);
-                          } else {
-                            newCompleted.add(problem.Problem);
-                          }
-                          setCompletedProblems(newCompleted);
-                          localStorage.setItem('completedProblems', JSON.stringify(Array.from(newCompleted)));
-                        }}
-                        className={`w-5 h-5 rounded border ${completedProblems.has(problem.Problem) ? 'bg-green-500 border-green-500' : 'border-muted-foreground hover:border-white'} transition-colors flex items-center justify-center`}
+                        onClick={() => markProblemCompleted(problem.Problem)}
+                        className={`w-5 h-5 rounded border ${completedProblems.includes(problem.Problem) ? 'bg-green-500 border-green-500' : 'border-muted-foreground hover:border-white'} transition-colors flex items-center justify-center`}
                       >
-                        {completedProblems.has(problem.Problem) && (
+                        {completedProblems.includes(problem.Problem) && (
                           <svg className="w-3 h-3 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
                             <polyline points="20 6 9 17 4 12" />
                           </svg>
@@ -146,15 +148,25 @@ export function ProblemAccordion({ title, problems: initialProblems }: ProblemAc
                     </td>
                     <td className="p-3 text-sm">{problem.Problem}</td>
                     <td className="p-3">
-                      <a
-                        href={problem['Practice Link']}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 text-primary hover:underline text-sm"
-                      >
-                        {getPlatformIcon(problem['Practice Link'])}
-                        <span>Practice</span>
-                      </a>
+                      {isAuthenticated ? (
+                        <a
+                          href={problem['Practice Link']}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 text-primary hover:underline text-sm"
+                        >
+                          {getPlatformIcon(problem['Practice Link'])}
+                          <span>Practice</span>
+                        </a>
+                      ) : (
+                        <button
+                          onClick={() => navigate('/login')}
+                          className="inline-flex items-center gap-2 text-primary hover:underline text-sm"
+                        >
+                          {getPlatformIcon(problem['Practice Link'])}
+                          <span>Login to Practice</span>
+                        </button>
+                      )}
                     </td>
                     <td className="p-3">
                       <button

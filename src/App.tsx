@@ -1,16 +1,17 @@
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import ProtectedRoute from './components/auth/ProtectedRoute';
+import Footer from './components/layout/Footer';
+import Navbar from './components/layout/Navbar';
 import { AuthProvider } from './contexts/AuthContext';
 import { ProblemProvider } from './contexts/ProblemContext';
-import Navbar from './components/layout/Navbar';
-import Footer from './components/layout/Footer';
-import HomePage from './pages/HomePage';
-import SheetPage from './pages/SheetPage';
-import LoginPage from './pages/LoginPage';
-import RegisterPage from './pages/RegisterPage';
+import CompletedProblemsPage from './pages/CompletedProblemsPage';
 import DashboardPage from './pages/DashboardPage';
+import HomePage from './pages/HomePage';
+import LoginPage from './pages/LoginPage';
 import NotFoundPage from './pages/NotFoundPage';
-import ProtectedRoute from './components/auth/ProtectedRoute';
+import RegisterPage from './pages/RegisterPage';
+import SheetPage from './pages/SheetPage';
 
 function App() {
   return (
@@ -25,13 +26,21 @@ function App() {
                 <Route path="/sheet/:sheetId" element={<SheetPage />} />
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/register" element={<RegisterPage />} />
-                <Route 
-                  path="/dashboard" 
+                <Route
+                  path="/dashboard"
                   element={
                     <ProtectedRoute>
                       <DashboardPage />
                     </ProtectedRoute>
-                  } 
+                  }
+                />
+                <Route
+                  path="/completed-problems"
+                  element={
+                    <ProtectedRoute>
+                      <CompletedProblemsPage />
+                    </ProtectedRoute>
+                  }
                 />
                 <Route path="*" element={<NotFoundPage />} />
               </Routes>
