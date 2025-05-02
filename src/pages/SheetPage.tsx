@@ -6,6 +6,15 @@ import { ProblemAccordion } from '../components/ProblemAccordion';
 import { useProblems } from '../contexts/ProblemContext';
 import { Difficulty, Problem } from '../types/problem';
 
+// Interface for the raw JSON data
+interface RawProblemData {
+  Title: string;
+  Problem: string;
+  'Practice Link': string;
+  Difficulty: string;
+  'Company Name': string;
+}
+
 const SheetPage: React.FC = () => {
   const { sheetId } = useParams<{ sheetId: string }>();
   const { completedProblems } = useProblems();
@@ -48,23 +57,26 @@ const SheetPage: React.FC = () => {
       setIsLoading(true);
       setError(null);
       try {
-        let jsonFile = '';
-        if (sheetId === 'sde') {
-          jsonFile = '/src/data/sdeSheet.json';
-        } else if (sheetId === 'advanced') {
-          jsonFile = '/src/data/basicToAdvanced.json';
-        } else {
-          throw new Error('Invalid sheet type');
+        // Import the JSON data directly instead of fetching it
+        let data = [];
+        try {
+          if (sheetId === 'sde') {
+            // Import the SDE sheet data
+            const sdeSheetData = await import('../data/sdeSheet.json');
+            data = sdeSheetData.default;
+          } else if (sheetId === 'advanced') {
+            // Import the Advanced sheet data
+            const advancedSheetData = await import('../data/basicToAdvanced.json');
+            data = advancedSheetData.default;
+          } else {
+            throw new Error('Invalid sheet type');
+          }
+        } catch (importError) {
+          console.error('Error importing JSON data:', importError);
+          throw new Error(`Failed to load ${sheetId} sheet data`);
         }
-
-        const response = await fetch(jsonFile);
-        if (!response.ok) {
-          throw new Error('Failed to fetch data');
-        }
-        const data = await response.json();
-
         // Clean and normalize the data
-        const cleanedData = data.map((problem: Problem, index: number) => {
+        const cleanedData = data.map((problem: RawProblemData, index: number) => {
           // Clean up and validate difficulty
           const rawDifficulty = (problem.Difficulty || '').toString().replace(/[",']/g, '').trim();
           const difficulty: Difficulty = ['Easy', 'Medium', 'Hard'].includes(rawDifficulty as Difficulty)
