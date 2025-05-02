@@ -121,22 +121,25 @@ const SheetPage: React.FC = () => {
     setFilteredProblems(result);
   }, [selectedDifficulty, problems]);
 
-  // Group filtered problems by Title (topic)
+  // Group filtered problems by Title (topic) while preserving order
+  const topicOrder: string[] = [];
   const problemsByTopic = filteredProblems.reduce((acc, problem) => {
     // Skip empty topics
     if (!problem.Title.trim()) return acc;
 
     if (!acc[problem.Title]) {
       acc[problem.Title] = [];
+      // Track the order of topics as they appear in the JSON
+      if (!topicOrder.includes(problem.Title)) {
+        topicOrder.push(problem.Title);
+      }
     }
     acc[problem.Title].push(problem);
     return acc;
   }, {} as Record<string, Problem[]>);
 
-  // Sort topics alphabetically
-  const sortedTopics = Object.entries(problemsByTopic).sort((a, b) =>
-    a[0].localeCompare(b[0])
-  );
+  // Use the original order from the JSON file
+  const sortedTopics = topicOrder.map(topic => [topic, problemsByTopic[topic]] as [string, Problem[]]);
 
   const handleDifficultyFilter = (difficulty: Difficulty | null) => {
     // If clicking the already selected difficulty, clear the filter
