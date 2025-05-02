@@ -1,10 +1,30 @@
 import { createClient } from '@supabase/supabase-js';
 
-if (!import.meta.env.VITE_SUPABASE_URL || !import.meta.env.VITE_SUPABASE_ANON_KEY) {
-  throw new Error('Missing Supabase environment variables');
-}
+// Default fallback values (replace with your actual production values)
+const DEFAULT_SUPABASE_URL = 'https://qxzbqgmacakxkqstxvju.supabase.co';
+const DEFAULT_SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF4emJxZ21hY2FreGtxc3R4dmp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU5NTY5MjYsImV4cCI6MjA2MTUzMjkyNn0.GupctZZweA_r1MVwfhmQlb1v3FBPpvv71jDiVj1zPPw';
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+// Get environment variables from various sources
+// This handles both development (import.meta.env) and production (process.env) environments
+const getEnvVariable = (key: string, defaultValue: string): string => {
+  // Check Vite's import.meta.env (development)
+  if (import.meta.env && import.meta.env[key]) {
+    return import.meta.env[key] as string;
+  }
 
+  // Check process.env (production build)
+  if (typeof process !== 'undefined' && process.env && process.env[key]) {
+    return process.env[key] as string;
+  }
+
+  // Return default value if not found
+  return defaultValue;
+};
+
+const supabaseUrl = getEnvVariable('VITE_SUPABASE_URL', DEFAULT_SUPABASE_URL);
+const supabaseKey = getEnvVariable('VITE_SUPABASE_ANON_KEY', DEFAULT_SUPABASE_ANON_KEY);
+
+console.log('Initializing Supabase client with URL:', supabaseUrl.substring(0, 20) + '...');
+
+// Create and export the Supabase client
 export const supabase = createClient(supabaseUrl, supabaseKey);

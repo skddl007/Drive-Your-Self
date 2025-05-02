@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "cp netlify.toml dist/ && cp vercel.json dist/",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && npm run postbuild"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.4",
