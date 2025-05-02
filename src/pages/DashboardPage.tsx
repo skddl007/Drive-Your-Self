@@ -1,4 +1,4 @@
-import { Calendar, ExternalLink, Trophy } from 'lucide-react';
+import { BarChart3, Calendar, ExternalLink, Target, TrendingUp, Trophy } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import DashboardStats from '../components/dashboard/DashboardStats';
@@ -9,7 +9,9 @@ import { useAuth } from '../contexts/AuthContext';
 import { useProblems } from '../contexts/ProblemContext';
 import { getAdvancedSheetData, getSdeSheetData } from '../data/sheetData';
 
+// Add animation states for dashboard components
 const DashboardPage: React.FC = () => {
+  const [animatedSections, setAnimatedSections] = useState<string[]>([]);
   const { completedProblems, dailyStats } = useProblems();
   const { user, userProfile, isAuthenticated } = useAuth();
   const navigate = useNavigate();
@@ -47,13 +49,33 @@ const DashboardPage: React.FC = () => {
     }
   }, [isAuthenticated, user, userProfile, retryCount, navigate]);
 
+  // Add staggered animations for dashboard sections
+  useEffect(() => {
+    if (!isLoading) {
+      const sections = ['header', 'today', 'stats', 'distribution', 'activity'];
+      const animateSequentially = async () => {
+        for (const section of sections) {
+          await new Promise(resolve => setTimeout(resolve, 200));
+          setAnimatedSections(prev => [...prev, section]);
+        }
+      };
+
+      animateSequentially();
+    }
+  }, [isLoading]);
+
   if (isLoading) {
     return (
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-col items-center justify-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary mb-4"></div>
-          <p className="text-lg text-gray-600 dark:text-gray-400">Loading your dashboard...</p>
-          <p className="text-sm text-gray-500 dark:text-gray-500 mt-2">This may take a moment</p>
+          <div className="relative">
+            <div className="animate-spin rounded-full h-16 w-16 border-4 border-t-blue-500 border-r-transparent border-b-indigo-600 border-l-transparent mb-4"></div>
+            <div className="absolute inset-0 flex items-center justify-center">
+              <BarChart3 size={24} className="text-blue-500 animate-pulse" />
+            </div>
+          </div>
+          <p className="text-xl font-semibold text-gray-700 dark:text-gray-300 mb-2 mt-4">Loading your dashboard...</p>
+          <p className="text-sm text-gray-500 dark:text-gray-500 animate-pulse">Preparing your coding statistics</p>
         </div>
       </div>
     );
@@ -121,33 +143,47 @@ const DashboardPage: React.FC = () => {
 
   return (
     <div className="container mx-auto px-4 py-8 max-w-7xl">
-      <div className="flex items-center justify-between mb-8">
-        <div>
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
+      {/* Header Section */}
+      <div
+        className={`flex flex-col md:flex-row md:items-center justify-between mb-8 transition-all duration-700 transform
+                   ${animatedSections.includes('header') ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}
+      >
+        <div className="mb-6 md:mb-0">
+          <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-indigo-700 bg-clip-text text-transparent mb-2">
             Welcome back, {userProfile?.username || 'Coder'}!
           </h1>
-          <p className="text-gray-600 dark:text-gray-400">
-            Keep up the great work!
+          <p className="text-gray-600 dark:text-gray-400 text-lg">
+            Keep up the great work on your DSA journey!
           </p>
         </div>
-        <div className="flex items-center gap-6">
-          <div className="flex items-center gap-6">
-            <div className="flex items-center gap-2">
-              <Calendar className="text-blue-500" size={24} />
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-4 border border-gray-100 dark:border-gray-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+            <div className="flex items-center gap-3">
+              <div className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-full">
+                <Calendar className="text-blue-600 dark:text-blue-400" size={24} />
+              </div>
               <div>
                 <p className="text-sm text-gray-600 dark:text-gray-400">Current Streak</p>
                 <p className="text-xl font-bold text-gray-900 dark:text-white">{userProfile?.streak_count || 0} days</p>
               </div>
             </div>
-            <div className="flex items-center gap-2">
-              <Calendar className="text-green-500" size={24} />
+          </div>
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-4 border border-gray-100 dark:border-gray-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+            <div className="flex items-center gap-3">
+              <div className="bg-green-100 dark:bg-green-900/30 p-3 rounded-full">
+                <TrendingUp className="text-green-600 dark:text-green-400" size={24} />
+              </div>
               <div>
                 <p className="text-sm text-gray-600 dark:text-gray-400">Longest Streak</p>
                 <p className="text-xl font-bold text-gray-900 dark:text-white">{userProfile?.longest_streak || 0} days</p>
               </div>
             </div>
-            <div className="flex items-center gap-2">
-              <Trophy className="text-yellow-500" size={24} />
+          </div>
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-4 border border-gray-100 dark:border-gray-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+            <div className="flex items-center gap-3">
+              <div className="bg-yellow-100 dark:bg-yellow-900/30 p-3 rounded-full">
+                <Trophy className="text-yellow-600 dark:text-yellow-400" size={24} />
+              </div>
               <div>
                 <p className="text-sm text-gray-600 dark:text-gray-400">Total Solved</p>
                 <p className="text-xl font-bold text-gray-900 dark:text-white">{totalCompleted}</p>
@@ -158,28 +194,41 @@ const DashboardPage: React.FC = () => {
       </div>
 
       {/* Today's Progress */}
-      <div className="bg-card p-6 rounded-lg shadow-sm mb-8">
-        <h2 className="text-xl font-semibold mb-4">Today's Progress</h2>
-        <div className="flex items-center justify-between">
-          <div>
-            <p className="text-3xl font-bold text-primary">{Math.min(dailyStats.problemsSolved, 5)}</p>
-            <p className="text-sm text-muted-foreground">Problems Solved Today</p>
+      <div
+        className={`bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg mb-8 border border-gray-100 dark:border-gray-700 transition-all duration-700 transform
+                   ${animatedSections.includes('today') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
+      >
+        <div className="flex items-center gap-3 mb-4">
+          <div className="bg-indigo-100 dark:bg-indigo-900/30 p-2 rounded-full">
+            <Target className="text-indigo-600 dark:text-indigo-400" size={24} />
           </div>
-          <div className="h-2 flex-grow mx-8 bg-muted rounded-full overflow-hidden">
+          <h2 className="text-xl font-semibold bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent">
+            Today's Progress
+          </h2>
+        </div>
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-4 rounded-lg text-white text-center w-full md:w-auto">
+            <p className="text-4xl font-bold mb-1">{Math.min(dailyStats.problemsSolved, 5)}</p>
+            <p className="text-sm opacity-90">Problems Solved Today</p>
+          </div>
+          <div className="h-3 flex-grow bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden shadow-inner">
             <div
-              className="h-full bg-primary transition-all duration-300"
+              className="h-full bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full transition-all duration-1000 ease-out"
               style={{ width: `${Math.min((dailyStats.problemsSolved / 5) * 100, 100)}%` }}
             />
           </div>
-          <div className="text-right">
-            <p className="text-lg font-semibold">{Math.min(dailyStats.problemsSolved, 5)}/5</p>
-            <p className="text-sm text-muted-foreground">Daily Goal</p>
+          <div className="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg text-center w-full md:w-auto">
+            <p className="text-2xl font-bold text-gray-900 dark:text-white mb-1">{Math.min(dailyStats.problemsSolved, 5)}/5</p>
+            <p className="text-sm text-gray-600 dark:text-gray-400">Daily Goal</p>
           </div>
         </div>
       </div>
 
       {/* Overall Stats */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+      <div
+        className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8 transition-all duration-700 transform
+                   ${animatedSections.includes('stats') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
+      >
         <DashboardStats
           title="Total Progress"
           count={totalCompleted}
@@ -210,7 +259,11 @@ const DashboardPage: React.FC = () => {
         />
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+      {/* Distribution and Topics */}
+      <div
+        className={`grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8 transition-all duration-700 transform
+                   ${animatedSections.includes('distribution') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
+      >
         <div className="lg:col-span-2">
           <ProblemDistribution
             easyTotal={easyProblems.length}
@@ -226,15 +279,24 @@ const DashboardPage: React.FC = () => {
         </div>
       </div>
 
-      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-100 dark:border-gray-700">
+      {/* Recent Activity */}
+      <div
+        className={`bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border border-gray-100 dark:border-gray-700 transition-all duration-700 transform
+                   ${animatedSections.includes('activity') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
+      >
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-xl font-semibold text-gray-900 dark:text-white">
-            Recent Activity
-          </h2>
+          <div className="flex items-center gap-3">
+            <div className="bg-blue-100 dark:bg-blue-900/30 p-2 rounded-full">
+              <BarChart3 className="text-blue-600 dark:text-blue-400" size={24} />
+            </div>
+            <h2 className="text-xl font-semibold bg-gradient-to-r from-blue-500 to-indigo-600 bg-clip-text text-transparent">
+              Recent Activity
+            </h2>
+          </div>
           {completed.length > 10 && (
             <Link
               to="/completed-problems"
-              className="text-blue-600 dark:text-blue-400 text-sm hover:underline flex items-center gap-1"
+              className="bg-blue-100 hover:bg-blue-200 dark:bg-blue-900/30 dark:hover:bg-blue-800/40 text-blue-700 dark:text-blue-300 px-3 py-2 rounded-md transition-all duration-300 flex items-center gap-1 text-sm font-medium hover:shadow-md"
             >
               View all
               <ExternalLink size={14} />
