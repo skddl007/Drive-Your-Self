@@ -1,6 +1,6 @@
+import { FileText, Github, Linkedin, Twitter } from 'lucide-react';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Github, Twitter, Linkedin, FileText } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
               </a>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider mb-4">
               Resources
@@ -78,27 +78,27 @@ const Footer: React.FC = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider mb-4">
               Company
             </h3>
             <ul className="space-y-3">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/about"
                   className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/contact"
                   className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
               <li>
                 <a
@@ -119,7 +119,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-800">
           <p className="text-gray-500 dark:text-gray-400 text-center">
             © {new Date().getFullYear()} Drive Your Self. All rights reserved.

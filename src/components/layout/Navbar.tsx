@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { ChevronDown, FileText, LayoutDashboard, LogOut, Menu, User, X } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
-import { Menu, X, ChevronDown, LogOut, User, FileText, LayoutDashboard } from 'lucide-react';
 import { ThemeToggle } from '../ThemeToggle';
 
 const Navbar: React.FC = () => {
@@ -10,11 +10,11 @@ const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const { isAuthenticated, user, userProfile, logout } = useAuth();
   const location = useLocation();
-  
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-  
+
   const toggleProfile = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
     // Toggle profile dropdown
     setIsProfileOpen(!isProfileOpen);
   };
-  
+
   // Check if navbar should change style on scroll
   useEffect(() => {
     const handleScroll = () => {
@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
         setIsScrolled(false);
       }
     };
-    
+
     // Close profile dropdown when clicking outside
     const handleClickOutside = (e: MouseEvent) => {
       if (isProfileOpen && e.target instanceof Node) {
@@ -44,10 +44,10 @@ const Navbar: React.FC = () => {
         }
       }
     };
-    
+
     window.addEventListener('scroll', handleScroll);
     document.addEventListener('mousedown', handleClickOutside);
-    
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
       document.removeEventListener('mousedown', handleClickOutside);
@@ -67,23 +67,25 @@ const Navbar: React.FC = () => {
       setIsProfileOpen(false);
     }
   }, [isAuthenticated]);
-  
+
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'SDE Sheet', path: '/sheet/sde', description: '191 Handpicked Questions' },
     { name: 'Basic to Advanced', path: '/sheet/advanced', description: '491 Questions for Complete DSA' },
+    { name: 'About Us', path: '/about', description: 'Learn more about us' },
+    { name: 'Contact', path: '/contact', description: 'Get in touch with us' },
   ];
-  
+
   const isActive = (path: string) => {
     if (path === '/' && location.pathname !== '/') return false;
     return location.pathname.startsWith(path);
   };
-  
+
   return (
-    <header 
+    <header
       className={`sticky top-0 z-50 transition-all duration-300 ${
-        isScrolled 
-          ? 'bg-background/90 backdrop-blur-md shadow-sm' 
+        isScrolled
+          ? 'bg-background/90 backdrop-blur-md shadow-sm'
           : 'bg-background'
       }`}
     >
@@ -96,7 +98,7 @@ const Navbar: React.FC = () => {
             </div>
             <span className="text-xl font-bold text-foreground">Drive Your Self</span>
           </Link>
-          
+
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
@@ -113,7 +115,7 @@ const Navbar: React.FC = () => {
               </Link>
             ))}
           </nav>
-          
+
           {/* Auth Buttons or User Profile */}
           <div className="hidden md:flex items-center gap-4">
             <ThemeToggle />
@@ -144,7 +146,7 @@ const Navbar: React.FC = () => {
                   </div>
                   <ChevronDown size={16} className={`transition-transform duration-300 ${isProfileOpen ? 'rotate-180' : ''}`} />
                 </button>
-                
+
                 {isProfileOpen && (
                   <div id="profile-dropdown" className="absolute right-0 mt-2 w-48 bg-card rounded-lg shadow-lg py-2 z-50 border border-border">
                     <div className="py-2">
@@ -168,11 +170,11 @@ const Navbar: React.FC = () => {
                         onClick={async (e) => {
                           e.preventDefault();
                           e.stopPropagation();
-                          
+
                           // Immediately close all menus
                           setIsProfileOpen(false);
                           setIsMenuOpen(false);
-                          
+
                           // Execute logout
                           try {
                             await logout();
@@ -208,7 +210,7 @@ const Navbar: React.FC = () => {
               </>
             )}
           </div>
-          
+
           {/* Mobile Menu Button */}
           <button
             className="md:hidden text-foreground"
@@ -218,7 +220,7 @@ const Navbar: React.FC = () => {
           </button>
         </div>
       </div>
-      
+
       {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="md:hidden bg-background shadow-md">
@@ -237,9 +239,9 @@ const Navbar: React.FC = () => {
                   {link.name}
                 </Link>
               ))}
-              
+
               <div className="h-px bg-border my-2"></div>
-              
+
               {isAuthenticated ? (
                 <>
                   <Link
