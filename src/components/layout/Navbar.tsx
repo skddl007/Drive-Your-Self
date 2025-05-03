@@ -72,6 +72,7 @@ const Navbar: React.FC = () => {
     { name: 'Home', path: '/' },
     { name: 'SDE Sheet', path: '/sheet/sde', description: '191 Handpicked Questions' },
     { name: 'Basic to Advanced', path: '/sheet/advanced', description: '491 Questions for Complete DSA' },
+    { name: 'Interview Questions', path: '/sheet/interview', description: 'Real Interview Questions' },
     { name: 'About Us', path: '/about', description: 'Learn more about us' },
     { name: 'Contact', path: '/contact', description: 'Get in touch with us' },
   ];

@@ -6,13 +6,21 @@ import { ProblemAccordion } from '../components/ProblemAccordion';
 import { useProblems } from '../contexts/ProblemContext';
 import { Difficulty, Problem } from '../types/problem';
 
-// Interface for the raw JSON data
-interface RawProblemData {
+// Interface for the standard sheet data
+interface StandardSheetData {
   Title: string;
   Problem: string;
   'Practice Link': string;
   Difficulty: string;
   'Company Name': string;
+}
+
+// Interface for the interview questions data
+interface InterviewQuestionData {
+  'Question Name': string;
+  Link: string;
+  hardness: string;
+  Company: string;
 }
 
 const SheetPage: React.FC = () => {
@@ -49,6 +57,8 @@ const SheetPage: React.FC = () => {
         return 'SDE Sheet';
       case 'advanced':
         return 'Basic to Advanced Sheet';
+      case 'interview':
+        return 'Interview Questions - Batch 2026';
       default:
         return 'Problem Sheet';
     }
@@ -70,6 +80,10 @@ const SheetPage: React.FC = () => {
             // Import the Advanced sheet data
             const advancedSheetData = await import('../data/basicToAdvanced.json');
             data = advancedSheetData.default;
+          } else if (sheetId === 'interview') {
+            // Import the Interview Questions data
+            const interviewData = await import('../../public/data/Interview Questions - Batch 2026.json');
+            data = interviewData.default;
           } else {
             throw new Error('Invalid sheet type');
           }
@@ -82,36 +96,74 @@ const SheetPage: React.FC = () => {
         const allCompanies = new Set<string>();
 
         // Clean and normalize the data
-        const cleanedData = data.map((problem: RawProblemData, index: number) => {
-          // Clean up and validate difficulty
-          const rawDifficulty = (problem.Difficulty || '').toString().replace(/[",']/g, '').trim();
-          const difficulty: Difficulty = ['Easy', 'Medium', 'Hard'].includes(rawDifficulty as Difficulty)
-            ? rawDifficulty as Difficulty
-            : 'Medium';
+        let cleanedData: Problem[] = [];
 
-          // Process company names - split by comma and trim
-          const companyNames = problem['Company Name']
-            ? problem['Company Name'].split(',').map((c: string) => c.trim()).filter((c: string) => c)
-            : [];
+        if (sheetId === 'interview') {
+          // Process interview questions format
+          const interviewData = data as unknown as InterviewQuestionData[];
+          cleanedData = interviewData.map((problem, index) => {
+            // Clean up and validate difficulty
+            const rawDifficulty = (problem.hardness || '').toString().trim();
+            const difficulty: Difficulty = ['Easy', 'Medium', 'Hard'].includes(rawDifficulty as Difficulty)
+              ? rawDifficulty as Difficulty
+              : 'Medium';
 
-          // Add companies to the set of all companies
-          companyNames.forEach((company: string) => {
-            if (company && company !== 'Not specified' && company !== '') {
-              allCompanies.add(company);
-            }
+            // Process company names - split by comma and trim
+            const companyNames = problem.Company
+              ? problem.Company.split(',').map((c: string) => c.trim()).filter((c: string) => c)
+              : [];
+
+            // Add companies to the set of all companies
+            companyNames.forEach((company: string) => {
+              if (company && company !== 'Not specified' && company !== '') {
+                allCompanies.add(company);
+              }
+            });
+
+            return {
+              id: `${sheetId}-${index + 1}`,
+              Difficulty: difficulty,
+              Title: problem.Company?.trim() || 'Other',  // Use Company as the topic/title
+              Problem: problem['Question Name']?.trim() || 'Untitled Problem',
+              'Practice Link': problem.Link && problem.Link !== 'Link' ? problem.Link : '#',
+              'Company Name': problem.Company?.trim() || 'Not specified',
+              CompanyNames: companyNames
+            };
           });
+        } else {
+          // Process standard sheet format (SDE and Advanced)
+          const standardData = data as unknown as StandardSheetData[];
+          cleanedData = standardData.map((problem, index) => {
+            // Clean up and validate difficulty
+            const rawDifficulty = (problem.Difficulty || '').toString().replace(/[",']/g, '').trim();
+            const difficulty: Difficulty = ['Easy', 'Medium', 'Hard'].includes(rawDifficulty as Difficulty)
+              ? rawDifficulty as Difficulty
+              : 'Medium';
 
-          return {
-            ...problem,
-            id: `${sheetId}-${index + 1}`,
-            Difficulty: difficulty,
-            Title: problem.Title?.trim() || 'Uncategorized',
-            Problem: problem.Problem?.trim() || 'Untitled Problem',
-            'Practice Link': problem['Practice Link']?.split(',')[0]?.trim() || '#',
-            'Company Name': problem['Company Name']?.trim() || 'Not specified',
-            CompanyNames: companyNames
-          };
-        });
+            // Process company names - split by comma and trim
+            const companyNames = problem['Company Name']
+              ? problem['Company Name'].split(',').map((c: string) => c.trim()).filter((c: string) => c)
+              : [];
+
+            // Add companies to the set of all companies
+            companyNames.forEach((company: string) => {
+              if (company && company !== 'Not specified' && company !== '') {
+                allCompanies.add(company);
+              }
+            });
+
+            return {
+              ...problem,
+              id: `${sheetId}-${index + 1}`,
+              Difficulty: difficulty,
+              Title: problem.Title?.trim() || 'Other',
+              Problem: problem.Problem?.trim() || 'Untitled Problem',
+              'Practice Link': problem['Practice Link']?.split(',')[0]?.trim() || '#',
+              'Company Name': problem['Company Name']?.trim() || 'Not specified',
+              CompanyNames: companyNames
+            };
+          });
+        }
 
         setProblems(cleanedData);
         setFilteredProblems(cleanedData);

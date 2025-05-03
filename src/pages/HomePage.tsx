@@ -88,6 +88,33 @@ const HomePage: React.FC = () => {
               </Link>
             </motion.div>
 
+            <motion.div
+              variants={itemVariants}
+              className="mt-6 flex flex-wrap gap-3 justify-center sm:justify-start"
+            >
+              <Link
+                to="/sheet/sde"
+                className="px-4 py-2 bg-white/10 hover:bg-white/20 text-white rounded-full border border-white/20 text-sm font-medium transition-all duration-200 flex items-center gap-1"
+              >
+                <BookOpen size={14} />
+                <span>SDE Sheet</span>
+              </Link>
+              <Link
+                to="/sheet/advanced"
+                className="px-4 py-2 bg-white/10 hover:bg-white/20 text-white rounded-full border border-white/20 text-sm font-medium transition-all duration-200 flex items-center gap-1"
+              >
+                <Code size={14} />
+                <span>Basic to Advanced</span>
+              </Link>
+              <Link
+                to="/sheet/interview"
+                className="px-4 py-2 bg-white/10 hover:bg-white/20 text-white rounded-full border border-white/20 text-sm font-medium transition-all duration-200 flex items-center gap-1"
+              >
+                <Target size={14} />
+                <span>Interview Questions</span>
+              </Link>
+            </motion.div>
+
             <motion.div variants={itemVariants} className="mt-12 flex flex-wrap gap-6">
               <div className="flex items-center gap-2">
                 <CheckCircle size={18} className="text-green-300" />
@@ -157,6 +184,58 @@ const HomePage: React.FC = () => {
         </div>
       </motion.section>
 
+      {/* Journey Section */}
+      <motion.section
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.3 }}
+        variants={containerVariants}
+        className="mb-24"
+      >
+        <motion.h2 variants={itemVariants} className="text-3xl font-bold text-center text-gray-800 dark:text-white mb-4">
+          Choose Your DSA Journey
+        </motion.h2>
+        <motion.p variants={itemVariants} className="text-center text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-12">
+          Select the path that matches your goals and experience level
+        </motion.p>
+
+        <div className="grid md:grid-cols-3 gap-8">
+          <motion.div variants={itemVariants}>
+            <SheetCard
+              title="SDE Sheet"
+              description="A carefully curated list of 191 questions to ace your technical interviews. Cover all the essential data structure and algorithm concepts."
+              problemCount={191}
+              topics={["Arrays", "Linked Lists", "Trees", "Graphs", "DP"]}
+              path="/sheet/sde"
+              icon={<BookOpen size={28} />}
+              color="from-blue-500 to-blue-700"
+            />
+          </motion.div>
+          <motion.div variants={itemVariants}>
+            <SheetCard
+              title="Basic to Advanced"
+              description="Comprehensive collection of 491 problems ranging from fundamental concepts to advanced algorithms, perfect for complete DSA mastery."
+              problemCount={491}
+              topics={["Arrays", "Strings", "Trees", "Graphs", "DP", "Advanced Algorithms"]}
+              path="/sheet/advanced"
+              icon={<Code size={28} />}
+              color="from-purple-500 to-purple-700"
+            />
+          </motion.div>
+          <motion.div variants={itemVariants}>
+            <SheetCard
+              title="Interview Questions"
+              description="Real interview questions from placements at Our University. Practice with actual questions asked by top companies."
+              problemCount={35}
+              topics={["Delhivery", "Inmobi", "Indihood", "Co-Builder", "Ambient"]}
+              path="/sheet/interview"
+              icon={<Target size={28} />}
+              color="from-green-500 to-green-700"
+            />
+          </motion.div>
+        </div>
+      </motion.section>
+
       {/* Dashboard Preview Section */}
       <motion.section
         initial="hidden"
@@ -183,47 +262,6 @@ const HomePage: React.FC = () => {
             className="rounded-xl overflow-hidden shadow-2xl"
           >
             <DashboardPreview />
-          </motion.div>
-        </div>
-      </motion.section>
-
-      {/* Journey Section */}
-      <motion.section
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
-        variants={containerVariants}
-        className="mb-24"
-      >
-        <motion.h2 variants={itemVariants} className="text-3xl font-bold text-center text-gray-800 dark:text-white mb-4">
-          Choose Your DSA Journey
-        </motion.h2>
-        <motion.p variants={itemVariants} className="text-center text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-12">
-          Select the path that matches your goals and experience level
-        </motion.p>
-
-        <div className="grid md:grid-cols-2 gap-8">
-          <motion.div variants={itemVariants}>
-            <SheetCard
-              title="SDE Sheet"
-              description="A carefully curated list of 191 questions to ace your technical interviews. Cover all the essential data structure and algorithm concepts."
-              problemCount={191}
-              topics={["Arrays", "Linked Lists", "Trees", "Graphs", "DP"]}
-              path="/sheet/sde"
-              icon={<BookOpen size={28} />}
-              color="from-blue-500 to-blue-700"
-            />
-          </motion.div>
-          <motion.div variants={itemVariants}>
-            <SheetCard
-              title="Basic to Advanced"
-              description="Comprehensive collection of 491 problems ranging from fundamental concepts to advanced algorithms, perfect for complete DSA mastery."
-              problemCount={491}
-              topics={["Arrays", "Strings", "Trees", "Graphs", "DP", "Advanced Algorithms"]}
-              path="/sheet/advanced"
-              icon={<Code size={28} />}
-              color="from-purple-500 to-purple-700"
-            />
           </motion.div>
         </div>
       </motion.section>

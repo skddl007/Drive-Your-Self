@@ -1,6 +1,7 @@
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, Twitter, Code } from 'lucide-react';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const Footer: React.FC = () => {
   return (
@@ -125,7 +126,26 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-800">
+        <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-800 flex flex-col items-center">
+          <motion.div 
+            className="mb-4 flex items-center justify-center"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ 
+              duration: 0.5,
+              ease: "easeOut"
+            }}
+            whileHover={{ 
+              scale: 1.05,
+              transition: { duration: 0.2 }
+            }}
+          >
+            <div className="flex items-center gap-2 px-6 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full shadow-lg">
+              <Code size={18} className="animate-pulse" />
+              <span className="font-medium">Developed by Sandeep Kumar</span>
+            </div>
+          </motion.div>
+          
           <p className="text-gray-500 dark:text-gray-400 text-center">
             © {new Date().getFullYear()} Drive Your Self. All rights reserved.
           </p>
