@@ -1,4 +1,4 @@
-import { ChevronDown, FileText, LayoutDashboard, LogOut, Menu, User, X } from 'lucide-react';
+import { ChevronDown, LayoutDashboard, LogOut, Menu, User, X } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
@@ -92,11 +92,16 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
-            <div className="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-2 rounded-lg">
-              <FileText size={20} />
+          <Link to="/" className="flex items-center gap-3">
+            <img
+              src="/images/drive-your-self-logo.svg"
+              alt="Drive Your Self Logo"
+              className="w-12 h-12 drop-shadow-md transition-transform duration-300 hover:scale-105"
+            />
+            <div className="flex flex-col">
+              <span className="text-xl font-bold text-foreground leading-tight">Drive Your Self</span>
+              <span className="text-xs text-muted-foreground">Master DSA with Confidence</span>
             </div>
-            <span className="text-xl font-bold text-foreground">Drive Your Self</span>
           </Link>
 
           {/* Desktop Navigation */}

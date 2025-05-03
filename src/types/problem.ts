@@ -7,6 +7,7 @@ export interface Problem {
   'Practice Link': string;
   Difficulty: Difficulty;
   'Company Name': string;
+  CompanyNames?: string[];
   Status?: string;
   Note?: string;
   Revision?: string;

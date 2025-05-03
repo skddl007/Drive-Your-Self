@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Glossy background with gradient -->
+  <rect width="512" height="512" rx="80" fill="url(#paint0_linear)" />
+  
+  <!-- Subtle code pattern overlay -->
+  <rect width="512" height="512" rx="80" fill="url(#pattern0)" fill-opacity="0.05" />
+  
+  <!-- Main logo elements -->
+  <!-- Stylized road/path representing the journey -->
+  <path d="M120 340H392" stroke="white" stroke-width="16" stroke-linecap="round" />
+  <path d="M140 340L180 260" stroke="white" stroke-width="12" stroke-linecap="round" />
+  <path d="M372 340L332 260" stroke="white" stroke-width="12" stroke-linecap="round" />
+  
+  <!-- Car/vehicle representing "Drive" -->
+  <path d="M196 340C196 340 216 300 256 300C296 300 316 340 316 340H196Z" fill="url(#paint1_linear)" />
+  <path d="M196 340C196 340 216 300 256 300C296 300 316 340 316 340H196Z" stroke="white" stroke-width="4" />
+  
+  <!-- Headlights -->
+  <circle cx="216" cy="320" r="10" fill="#FFFFFF" />
+  <circle cx="296" cy="320" r="10" fill="#FFFFFF" />
+  
+  <!-- Brain icon representing DSA learning -->
+  <path d="M256 120C290 120 318 148 318 182C318 216 290 244 256 244C222 244 194 216 194 182C194 148 222 120 256 120Z" fill="url(#paint2_radial)" />
+  
+  <!-- Neural network connections -->
+  <path d="M256 244V280" stroke="white" stroke-width="6" stroke-linecap="round" />
+  <path d="M256 280L216 300" stroke="white" stroke-width="6" stroke-linecap="round" />
+  <path d="M256 280L296 300" stroke="white" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- Data structure nodes -->
+  <circle cx="256" cy="182" r="40" fill="url(#paint3_radial)" />
+  <circle cx="256" cy="280" r="16" fill="url(#paint4_radial)" />
+  
+  <!-- Binary tree structure inside brain -->
+  <path d="M256 160V204" stroke="white" stroke-width="4" />
+  <path d="M256 160L236 180" stroke="white" stroke-width="4" />
+  <path d="M256 160L276 180" stroke="white" stroke-width="4" />
+  <circle cx="256" cy="160" r="8" fill="#FFFFFF" />
+  <circle cx="236" cy="180" r="6" fill="#FFFFFF" />
+  <circle cx="276" cy="180" r="6" fill="#FFFFFF" />
+  <circle cx="256" cy="204" r="6" fill="#FFFFFF" />
+  
+  <!-- Decorative elements -->
+  <path d="M120 380H392" stroke="white" stroke-width="4" stroke-opacity="0.3" />
+  <path d="M140 380V400" stroke="white" stroke-width="4" stroke-opacity="0.3" />
+  <path d="M180 380V400" stroke="white" stroke-width="4" stroke-opacity="0.3" />
+  <path d="M220 380V400" stroke="white" stroke-width="4" stroke-opacity="0.3" />
+  <path d="M260 380V400" stroke="white" stroke-width="4" stroke-opacity="0.3" />
+  <path d="M300 380V400" stroke="white" stroke-width="4" stroke-opacity="0.3" />
+  <path d="M340 380V400" stroke="white" stroke-width="4" stroke-opacity="0.3" />
+  <path d="M380 380V400" stroke="white" stroke-width="4" stroke-opacity="0.3" />
+  
+  <!-- Shine effect -->
+  <path d="M120 120L392 120" stroke="white" stroke-width="2" stroke-opacity="0.5" />
+  <path d="M120 140L360 140" stroke="white" stroke-width="2" stroke-opacity="0.4" />
+  <path d="M120 160L320 160" stroke="white" stroke-width="2" stroke-opacity="0.3" />
+  
+  <!-- Gradients and patterns -->
+  <defs>
+    <!-- Main background gradient -->
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563EB" />
+      <stop offset="0.5" stop-color="#4F46E5" />
+      <stop offset="1" stop-color="#7E22CE" />
+    </linearGradient>
+    
+    <!-- Car body gradient -->
+    <linearGradient id="paint1_linear" x1="196" y1="300" x2="316" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A5FA" />
+      <stop offset="1" stop-color="#3B82F6" />
+    </linearGradient>
+    
+    <!-- Brain outer glow -->
+    <radialGradient id="paint2_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 182) rotate(90) scale(62)">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.8" />
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.2" />
+    </radialGradient>
+    
+    <!-- Brain inner structure -->
+    <radialGradient id="paint3_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 182) rotate(90) scale(40)">
+      <stop offset="0" stop-color="#A78BFA" />
+      <stop offset="1" stop-color="#8B5CF6" />
+    </radialGradient>
+    
+    <!-- Node gradient -->
+    <radialGradient id="paint4_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 280) rotate(90) scale(16)">
+      <stop offset="0" stop-color="#FFFFFF" />
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.6" />
+    </radialGradient>
+    
+    <!-- Code pattern -->
+    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+      <use href="#code" transform="scale(0.001)" />
+    </pattern>
+    
+    <!-- Code pattern definition -->
+    <symbol id="code" viewBox="0 0 1000 1000">
+      <path d="M200 200L300 300" stroke="white" stroke-width="20" />
+      <path d="M400 200L300 300" stroke="white" stroke-width="20" />
+      <path d="M500 200L600 300" stroke="white" stroke-width="20" />
+      <path d="M700 200L600 300" stroke="white" stroke-width="20" />
+      <path d="M200 500L300 600" stroke="white" stroke-width="20" />
+      <path d="M400 500L300 600" stroke="white" stroke-width="20" />
+      <path d="M500 500L600 600" stroke="white" stroke-width="20" />
+      <path d="M700 500L600 600" stroke="white" stroke-width="20" />
+      <path d="M200 800L300 700" stroke="white" stroke-width="20" />
+      <path d="M400 800L300 700" stroke="white" stroke-width="20" />
+      <path d="M500 800L600 700" stroke="white" stroke-width="20" />
+      <path d="M700 800L600 700" stroke="white" stroke-width="20" />
+    </symbol>
+  </defs>
+</svg>

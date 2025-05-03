@@ -68,14 +68,9 @@ const HomePage: React.FC = () => {
               </span>
             </motion.div>
 
-            <motion.h1 variants={itemVariants} className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+            <motion.h1 variants={itemVariants} className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-10 leading-tight">
               Drive Your <span className="text-yellow-300">Success</span> in DSA
             </motion.h1>
-
-            <motion.p variants={itemVariants} className="text-xl text-white/90 mb-10 leading-relaxed">
-              Master Data Structures & Algorithms with our curated problem sheets. Track your progress,
-              build confidence, and ace your technical interviews.
-            </motion.p>
 
             <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4">
               <Link

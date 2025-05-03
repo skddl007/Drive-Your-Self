@@ -1,4 +1,4 @@
-import { AlertCircle, SlidersHorizontal } from 'lucide-react';
+import { AlertCircle, Building2, SlidersHorizontal } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import DashboardStats from '../components/dashboard/DashboardStats';
@@ -21,9 +21,11 @@ const SheetPage: React.FC = () => {
   const [problems, setProblems] = useState<Problem[]>([]);
   const [filteredProblems, setFilteredProblems] = useState<Problem[]>([]);
   const [selectedDifficulty, setSelectedDifficulty] = useState<Difficulty | null>(null);
+  const [selectedCompany, setSelectedCompany] = useState<string | null>(null);
   const [showMobileFilters, setShowMobileFilters] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [companies, setCompanies] = useState<string[]>([]);
 
   // Calculate problem statistics
   const completedCount = problems.filter(p => completedProblems.includes(p.Problem)).length;
@@ -75,6 +77,10 @@ const SheetPage: React.FC = () => {
           console.error('Error importing JSON data:', importError);
           throw new Error(`Failed to load ${sheetId} sheet data`);
         }
+
+        // Extract all unique companies
+        const allCompanies = new Set<string>();
+
         // Clean and normalize the data
         const cleanedData = data.map((problem: RawProblemData, index: number) => {
           // Clean up and validate difficulty
@@ -83,6 +89,18 @@ const SheetPage: React.FC = () => {
             ? rawDifficulty as Difficulty
             : 'Medium';
 
+          // Process company names - split by comma and trim
+          const companyNames = problem['Company Name']
+            ? problem['Company Name'].split(',').map((c: string) => c.trim()).filter((c: string) => c)
+            : [];
+
+          // Add companies to the set of all companies
+          companyNames.forEach((company: string) => {
+            if (company && company !== 'Not specified' && company !== '') {
+              allCompanies.add(company);
+            }
+          });
+
           return {
             ...problem,
             id: `${sheetId}-${index + 1}`,
@@ -90,12 +108,27 @@ const SheetPage: React.FC = () => {
             Title: problem.Title?.trim() || 'Uncategorized',
             Problem: problem.Problem?.trim() || 'Untitled Problem',
             'Practice Link': problem['Practice Link']?.split(',')[0]?.trim() || '#',
-            'Company Name': problem['Company Name']?.split(',')[0]?.trim() || 'Not specified'
+            'Company Name': problem['Company Name']?.trim() || 'Not specified',
+            CompanyNames: companyNames
           };
         });
 
         setProblems(cleanedData);
         setFilteredProblems(cleanedData);
+
+        // Sort companies by problem count (descending)
+        const companiesWithCounts = Array.from(allCompanies).map(company => {
+          const count = cleanedData.filter(p =>
+            p.CompanyNames && p.CompanyNames.includes(company)
+          ).length;
+          return { name: company, count };
+        });
+
+        // Sort by count (descending)
+        companiesWithCounts.sort((a, b) => b.count - a.count);
+
+        // Extract just the company names in the sorted order
+        setCompanies(companiesWithCounts.map(c => c.name));
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Failed to load problems');
         console.error('Error loading problems:', err);
@@ -107,10 +140,11 @@ const SheetPage: React.FC = () => {
     loadData();
   }, [sheetId]);
 
-  // Apply difficulty filter when changed
+  // Apply filters when changed
   useEffect(() => {
     let result = [...problems];
 
+    // Apply difficulty filter
     if (selectedDifficulty) {
       result = result.filter(problem => {
         const problemDifficulty = problem.Difficulty?.trim();
@@ -118,8 +152,19 @@ const SheetPage: React.FC = () => {
       });
     }
 
+    // Apply company filter
+    if (selectedCompany) {
+      result = result.filter(problem => {
+        // Check if the problem has the selected company
+        return problem.CompanyNames &&
+               problem.CompanyNames.some(company =>
+                 company.toLowerCase() === selectedCompany.toLowerCase()
+               );
+      });
+    }
+
     setFilteredProblems(result);
-  }, [selectedDifficulty, problems]);
+  }, [selectedDifficulty, selectedCompany, problems]);
 
   // Group filtered problems by Title (topic) while preserving order
   const topicOrder: string[] = [];
@@ -148,6 +193,16 @@ const SheetPage: React.FC = () => {
     } else {
       // Otherwise, set the new difficulty filter
       setSelectedDifficulty(difficulty);
+    }
+  };
+
+  const handleCompanyFilter = (company: string | null) => {
+    // If clicking the already selected company, clear the filter
+    if (company === selectedCompany) {
+      setSelectedCompany(null);
+    } else {
+      // Otherwise, set the new company filter
+      setSelectedCompany(company);
     }
   };
 
@@ -185,6 +240,7 @@ const SheetPage: React.FC = () => {
             <p className="text-muted-foreground">
               {filteredProblems.length} problem{filteredProblems.length === 1 ? '' : 's'} total
               {selectedDifficulty && ` • ${selectedDifficulty} difficulty`}
+              {selectedCompany && ` • ${selectedCompany} company`}
             </p>
           </div>
         </div>
@@ -237,6 +293,39 @@ const SheetPage: React.FC = () => {
         {/* Filters */}
         <div className={`${showMobileFilters ? 'block' : 'hidden lg:block'}`}>
           <div className="sticky top-20 space-y-4">
+            {/* Company Filter */}
+            {companies.length > 0 && (
+              <div className="bg-card rounded-lg p-4">
+                <h2 className="font-semibold mb-4 text-foreground flex items-center gap-2">
+                  <Building2 size={16} />
+                  <span>Company</span>
+                </h2>
+                <div className="space-y-2 max-h-[300px] overflow-y-auto pr-2">
+                  {companies.map((company) => {
+                    const count = problems.filter(p =>
+                      p.CompanyNames && p.CompanyNames.includes(company)
+                    ).length;
+
+                    return (
+                      <button
+                        key={company}
+                        onClick={() => handleCompanyFilter(company)}
+                        className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex justify-between items-center ${
+                          selectedCompany === company
+                            ? 'bg-primary text-primary-foreground'
+                            : 'text-foreground hover:bg-secondary'
+                        }`}
+                      >
+                        <span className="truncate">{company}</span>
+                        <span className="text-sm opacity-60 ml-2">{count}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* Difficulty Filter */}
             <div className="bg-card rounded-lg p-4">
               <h2 className="font-semibold mb-4 text-foreground">Difficulty</h2>
               <div className="space-y-2">
