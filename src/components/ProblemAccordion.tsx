@@ -1,6 +1,6 @@
 import { ChevronDown, Star } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 import { useAuth } from '../contexts/AuthContext';
 import { useProblems } from '../contexts/ProblemContext';
@@ -16,6 +16,7 @@ export function ProblemAccordion({ title, problems: initialProblems }: ProblemAc
   const { completedProblems, markProblemCompleted, getProblemNote, saveProblemNote } = useProblems();
   const { isAuthenticated } = useAuth();
   const navigate = useNavigate();
+  const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
   const [selectedProblem, setSelectedProblem] = useState<Problem | null>(null);
   const [isNoteModalOpen, setIsNoteModalOpen] = useState(false);
@@ -62,7 +63,7 @@ export function ProblemAccordion({ title, problems: initialProblems }: ProblemAc
       try {
         if (!isAuthenticated) {
           // Redirect to login if not authenticated
-          navigate('/login');
+          navigate(`/login?redirectTo=${location.pathname}`);
           return;
         }
 
@@ -160,7 +161,7 @@ export function ProblemAccordion({ title, problems: initialProblems }: ProblemAc
                         </a>
                       ) : (
                         <button
-                          onClick={() => navigate('/login')}
+                          onClick={() => navigate(`/login?redirectTo=${location.pathname}`)}
                           className="inline-flex items-center gap-2 text-primary hover:underline text-sm"
                         >
                           {getPlatformIcon(problem['Practice Link'])}

@@ -1,6 +1,6 @@
+import { BarChart, Shuffle } from 'lucide-react';
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Shuffle, BarChart } from 'lucide-react';
+import { Link, useLocation } from 'react-router-dom';
 import ProgressChart from './ProgressChart';
 
 interface SheetHeaderProps {
@@ -19,7 +19,8 @@ const SheetHeader: React.FC<SheetHeaderProps> = ({
   onRandomProblem
 }) => {
   const percentComplete = Math.round((completedProblems / totalProblems) * 100) || 0;
-  
+  const location = useLocation();
+
   return (
     <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-md border border-gray-100 dark:border-gray-700">
       <div className="md:flex justify-between items-start">
@@ -30,7 +31,7 @@ const SheetHeader: React.FC<SheetHeaderProps> = ({
           <p className="text-gray-600 dark:text-gray-300 mb-4">
             Master these carefully curated problems to excel in technical interviews.
           </p>
-          
+
           <div className="flex flex-wrap gap-4 mb-6 md:mb-0">
             <button
               onClick={onRandomProblem}
@@ -39,7 +40,7 @@ const SheetHeader: React.FC<SheetHeaderProps> = ({
               <Shuffle size={16} />
               <span>Random Problem</span>
             </button>
-            
+
             {isAuthenticated ? (
               <Link
                 to="/dashboard"
@@ -50,7 +51,7 @@ const SheetHeader: React.FC<SheetHeaderProps> = ({
               </Link>
             ) : (
               <Link
-                to="/login"
+                to={`/login?redirectTo=${location.pathname}`}
                 className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg transition-colors duration-300"
               >
                 <span>Login to Track Progress</span>
@@ -58,10 +59,10 @@ const SheetHeader: React.FC<SheetHeaderProps> = ({
             )}
           </div>
         </div>
-        
+
         {isAuthenticated && (
           <div className="mt-6 md:mt-0 flex flex-col items-center">
-            <ProgressChart 
+            <ProgressChart
               percentage={percentComplete}
               size={120}
             />

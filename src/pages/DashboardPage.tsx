@@ -1,6 +1,6 @@
 import { BarChart3, Calendar, ExternalLink, Target, TrendingUp, Trophy } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import ProblemDistribution from '../components/dashboard/ProblemDistribution';
 import RecentActivity from '../components/dashboard/RecentActivity';
 import TopicProgress from '../components/dashboard/TopicProgress';
@@ -14,8 +14,18 @@ const DashboardPage: React.FC = () => {
   const { completedProblems, dailyStats } = useProblems();
   const { user, userProfile, isAuthenticated } = useAuth();
   const navigate = useNavigate();
+  const location = useLocation();
   const [retryCount, setRetryCount] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
+  const [key, setKey] = useState(Date.now()); // Add a key to force re-render
+
+  // Update key when location changes to force re-render
+  useEffect(() => {
+    setKey(Date.now());
+    setAnimatedSections([]);
+    setIsLoading(true);
+    setRetryCount(0);
+  }, [location.pathname]);
 
   // Add a retry mechanism to handle cases where userProfile is not immediately available
   useEffect(() => {
@@ -75,6 +85,7 @@ const DashboardPage: React.FC = () => {
           </div>
           <p className="text-xl font-semibold text-gray-700 dark:text-gray-300 mb-2 mt-4">Loading your dashboard...</p>
           <p className="text-sm text-gray-500 dark:text-gray-500 animate-pulse">Preparing your coding statistics</p>
+          <p className="text-xs text-blue-500 mt-2">Dashboard ID: {key}</p>
         </div>
       </div>
     );
@@ -141,7 +152,7 @@ const DashboardPage: React.FC = () => {
   }, {} as Record<string, { total: number; completed: number }>);
 
   return (
-    <div className="container mx-auto px-4 py-8 max-w-7xl">
+    <div key={key} className="container mx-auto px-4 py-8 max-w-7xl">
       {/* Header Section */}
       <div
         className={`flex flex-col md:flex-row md:items-center justify-between mb-8 transition-all duration-700 transform

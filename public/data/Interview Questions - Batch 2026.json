@@ -1,139 +1,139 @@
 [
   {
     "Question Name": "House Robber",
-    "Link": "Link",
+    "Link": "https://leetcode.com/problems/house-robber/description/",
     "hardness": "Medium",
     "Company": "Delhivery"
   },
   {
     "Question Name": "Reverse Linked LIst",
-    "Link": "Link",
+    "Link": "https://leetcode.com/problems/reverse-linked-list/description/",
     "hardness": "Easy",
     "Company": "Delhivery"
   },
   {
     "Question Name": "Valid Anagram",
-    "Link": "Link",
+    "Link": "https://leetcode.com/problems/valid-anagram/description/",
     "hardness": "Easy",
     "Company": "Delhivery"
   },
   {
     "Question Name": "Drone Delhivery",
-    "Link": "Link",
+    "Link": "https://docs.google.com/document/d/16dVS6BugGkQTg4zUB0gljOEq11ali5qFVtcWFyikvLk/edit?usp=sharing",
     "hardness": "Medium",
     "Company": "Delhivery"
   },
   {
     "Question Name": "Gas Station",
-    "Link": "Link",
+    "Link": "https://leetcode.com/problems/gas-station/description/",
     "hardness": "Medium",
     "Company": "Delhivery"
   },
   {
     "Question Name": "Daily Temperatures",
-    "Link": "Link",
+    "Link": "https://leetcode.com/problems/daily-temperatures/description/",
     "hardness": "Easy",
     "Company": "Delhivery"
   },
   {
     "Question Name": "serialize-and-deserialize-binary-tree",
-    "Link": "Link",
+    "Link": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/",
     "hardness": "Medium",
     "Company": "Delhivery"
   },
   {
     "Question Name": "Largest Product Array",
-    "Link": "Link",
+    "Link": "https://docs.google.com/document/d/1Lg2UjZfE9dXcqP6rAEQMfOI37PMIpwCxI0AV2Ws8sZs/edit?usp=sharing",
     "hardness": "Medium",
     "Company": "Delhivery"
   },
   {
     "Question Name": "count of pairs in an array whose sum is perfect square",
-    "Link": "link",
+    "Link": "https://www.geeksforgeeks.org/count-of-pairs-in-an-array-whose-sum-is-a-perfect-square/",
     "hardness": "Medium",
     "Company": "Delhivery"
   },
   {
     "Question Name": "Sqrt(x)",
-    "Link": "Link",
+    "Link": "https://leetcode.com/problems/sqrtx/",
     "hardness": "Medium",
     "Company": "Delhivery"
   },
   {
     "Question Name": "Two Sum",
-    "Link": "Link",
+    "Link": "https://leetcode.com/problems/two-sum/",
     "hardness": "Easy",
     "Company": "Inmobi,"
   },
   {
     "Question Name": "Meeting Rooms II",
-    "Link": "Link",
+    "Link": "https://neetcode.io/problems/meeting-schedule-ii",
     "hardness": "Medium",
     "Company": "Inmobi, Co-builder"
   },
   {
     "Question Name": "First Unique Number",
-    "Link": "Link",
+    "Link": "https://leetcode.com/problems/first-unique-number/",
     "hardness": "Medium",
     "Company": "Inmobi"
   },
   {
     "Question Name": "Group Anagrams",
-    "Link": "Link",
+    "Link": "https://leetcode.com/problems/group-anagrams/description/",
     "hardness": "Medium",
     "Company": "Trademo"
   },
   {
     "Question Name": "Super Egg Drop",
-    "Link": "Link",
+    "Link": "https://leetcode.com/problems/super-egg-drop/description/",
     "hardness": "Hard",
     "Company": "Indihood"
   },
   {
     "Question Name": "Angle Between Hands of a Clock",
-    "Link": "Link",
+    "Link": "https://leetcode.com/problems/angle-between-hands-of-a-clock/description/",
     "hardness": "Medium",
     "Company": "Indihood"
   },
   {
     "Question Name": "String Compression",
-    "Link": "Link",
+    "Link": "https://leetcode.com/problems/string-compression/description/",
     "hardness": "Medium",
     "Company": "Indihood"
   },
   {
     "Question Name": "Pattern Printing",
-    "Link": "Link",
+    "Link": "https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/",
     "hardness": "Easy",
     "Company": "Indihood"
   },
   {
     "Question Name": "Roman to Integer",
-    "Link": "Link",
+    "Link": "https://leetcode.com/problems/roman-to-integer/description/",
     "hardness": "Easy",
     "Company": "Indihood"
   },
   {
     "Question Name": "Minimum Insertion Steps to Make a String Palindrome",
-    "Link": "Link",
+    "Link": "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/",
     "hardness": "Hard",
     "Company": "Indihood"
   },
   {
     "Question Name": "Find the Largest element in an array",
-    "Link": "Link",
+    "Link": "https://takeuforward.org/data-structure/find-the-largest-element-in-an-array/",
     "hardness": "Easy",
     "Company": "KlearNow"
   },
   {
     "Question Name": "Maximum number of edges among all connected components of an undirected graph",
-    "Link": "Link",
+    "Link": "https://www.geeksforgeeks.org/maximum-number-of-edges-among-all-connected-components-of-an-undirected-graph/",
     "hardness": "Medium",
     "Company": "Ambient"
   },
   {
     "Question Name": "Maximum Number of Nodes in a Component in an Undirected Graph",
-    "Link": "Link",
+    "Link": "https://www.geeksforgeeks.org/maximum-number-of-edges-among-all-connected-components-of-an-undirected-graph/",
     "hardness": "Medium",
     "Company": "Ambient"
   },
@@ -157,55 +157,61 @@
   },
   {
     "Question Name": "Chalo Test Discussion",
-    "Link": "Leetcode  Docs",
+    "Link": "https://docs.google.com/document/d/1YIrh1uooUtrwQ84hBm2wDr_7EVxLzwipFsENAPeII8c/edit?usp=sharing",
+    "hardness": "",
+    "Company": ""
+  },
+  {
+    "Question Name": "Chalo Test Discussion",
+    "Link": "https://leetcode.com/discuss/post/2720378/chalo-oa-questions-by-anonymous_user-qi79/",
     "hardness": "",
     "Company": "Chalo"
   },
   {
     "Question Name": "01 Matrix",
-    "Link": "Link",
+    "Link": "https://leetcode.com/problems/01-matrix/description/",
     "hardness": "Medium",
     "Company": "Chalo"
   },
   {
     "Question Name": "Place k elements such that minimum distance is maximized",
-    "Link": "LInk",
+    "Link": "https://www.geeksforgeeks.org/place-k-elements-such-that-minimum-distance-is-maximized/",
     "hardness": "Medium",
     "Company": "Co-Builder"
   },
   {
     "Question Name": "Neural Network",
-    "Link": "Link",
+    "Link": "https://docs.google.com/document/d/1Oso5WFG2GdbTk9iXiL9zJroyH5kKces4WHzlBoyI3KY/edit?usp=sharing",
     "hardness": "Medium",
     "Company": "Co-Builder"
   },
   {
     "Question Name": "3 - sum",
-    "Link": "Link",
+    "Link": "https://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/",
     "hardness": "Medium",
     "Company": "Co-Builder"
   },
   {
     "Question Name": "Game of Heights",
-    "Link": "Link",
+    "Link": "https://docs.google.com/document/d/13d_k1101ZeC_eEjoFY4GysFhuAj4Lk8qHAT03NiElSc/edit?usp=sharing",
     "hardness": "Easy",
     "Company": "Co-Builder"
   },
   {
     "Question Name": "Maximum Interval Overlap",
-    "Link": "Link",
+    "Link": "https://www.geeksforgeeks.org/problems/maximum-intervals-overlap5708/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card",
     "hardness": "Medium",
     "Company": "Co-builder"
   },
   {
     "Question Name": "Maximum sum of values of nodes among all connected components of an undirected graphLink",
-    "Link": "Link",
+    "Link": "https://www.geeksforgeeks.org/maximum-sum-of-values-of-nodes-among-all-connected-components-of-an-undirected-graph/",
     "hardness": "Medium",
     "Company": "Ambient"
   },
   {
     "Question Name": "Gradient descent (binary search)",
-    "Link": "Link",
+    "Link": "https://www.geeksforgeeks.org/gradient-descent-algorithm-and-its-variants/",
     "hardness": "Hard",
     "Company": "Ambient"
   }

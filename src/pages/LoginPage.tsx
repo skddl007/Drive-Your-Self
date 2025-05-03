@@ -1,6 +1,6 @@
 import { AlertCircle, Lock, Mail } from 'lucide-react';
-import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 
 const LoginPage: React.FC = () => {
@@ -8,9 +8,20 @@ const LoginPage: React.FC = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
+  const [redirectPath, setRedirectPath] = useState('/dashboard');
 
   const { login } = useAuth();
   const navigate = useNavigate();
+  const location = useLocation();
+
+  // Parse redirect path from URL query parameters
+  useEffect(() => {
+    const searchParams = new URLSearchParams(location.search);
+    const redirect = searchParams.get('redirectTo');
+    if (redirect) {
+      setRedirectPath(redirect);
+    }
+  }, [location]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -28,8 +39,8 @@ const LoginPage: React.FC = () => {
       // Add a longer delay to ensure the context is fully updated
       // This gives time for the user profile to be fetched
       setTimeout(() => {
-        console.log('Delayed navigation to dashboard');
-        navigate('/dashboard', { replace: true });
+        console.log(`Delayed navigation to: ${redirectPath}`);
+        navigate(redirectPath, { replace: true });
       }, 1500);
 
     } catch (err: any) {

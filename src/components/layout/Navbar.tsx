@@ -202,7 +202,7 @@ const Navbar: React.FC = () => {
             ) : (
               <>
                 <Link
-                  to="/login"
+                  to={`/login?redirectTo=${location.pathname}`}
                   className="px-4 py-2 text-foreground hover:bg-secondary rounded-lg transition-colors duration-200"
                 >
                   Log in
@@ -268,7 +268,7 @@ const Navbar: React.FC = () => {
               ) : (
                 <div className="flex flex-col gap-2 mt-2">
                   <Link
-                    to="/login"
+                    to={`/login?redirectTo=${location.pathname}`}
                     className="w-full py-2 text-center text-foreground border border-border rounded-lg"
                   >
                     Log in
